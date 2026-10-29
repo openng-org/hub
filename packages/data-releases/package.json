@@ -1,0 +1,47 @@
+{
+  "name": "@openng/data-releases",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Angular release data: announcements, GitHub releases, the commits of every stable release, and migration guides.",
+  "homepage": "https://hub.openng.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openng-org/hub.git",
+    "directory": "packages/data-releases"
+  },
+  "bugs": {
+    "url": "https://github.com/openng-org/hub/issues"
+  },
+  "license": "MIT AND CC-BY-4.0",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src",
+    "data"
+  ],
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./commits": {
+      "source": "./src/commits.ts",
+      "types": "./dist/commits.d.ts",
+      "default": "./dist/commits.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run --no-fsModuleCache"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

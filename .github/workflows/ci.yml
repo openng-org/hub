@@ -1,0 +1,81 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Build, types, lint, tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - name: Turborepo cache
+        uses: actions/cache@v4
+        with:
+          path: .turbo
+          key: turbo-${{ runner.os }}-${{ github.sha }}
+          restore-keys: turbo-${{ runner.os }}-
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm turbo run build check-types lint
+      # Coverage thresholds live in apps/web/angular.json and vitest.shared.mts.
+      - run: pnpm test:coverage
+      - run: pnpm format:check
+      - name: Audit production dependencies
+        run: pnpm audit --prod --audit-level=high
+        continue-on-error: true
+      - name: Keep the built site for the browser checks
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: apps/web/dist
+          retention-days: 1
+
+  e2e:
+    name: Accessibility and journeys
+    runs-on: ubuntu-latest
+    needs: verify
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: apps/web/dist
+      - name: Playwright browser cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
+      - run: pnpm --filter web exec playwright install --with-deps chromium
+      # axe-core (WCAG 2.1 A/AA incl. colour contrast) on every kind of page, light and dark, and
+      # the main journeys: see apps/web/e2e/.
+      - run: pnpm --filter web e2e
+      - if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: |
+            apps/web/playwright-report
+            apps/web/test-results
+          retention-days: 7

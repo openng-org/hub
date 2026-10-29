@@ -1,0 +1,267 @@
+[
+  {
+    "name": "APP_INITIALIZER",
+    "replacedBy": "provideAppInitializer",
+    "replacementUrl": "https://angular.dev/api/core/provideAppInitializer"
+  },
+  {
+    "name": "ENVIRONMENT_INITIALIZER",
+    "replacedBy": "provideEnvironmentInitializer",
+    "replacementUrl": "https://angular.dev/api/core/provideEnvironmentInitializer"
+  },
+  {
+    "name": "PLATFORM_INITIALIZER",
+    "replacedBy": "providePlatformInitializer",
+    "replacementUrl": "https://angular.dev/api/core/providePlatformInitializer"
+  },
+  {
+    "name": "HttpClientJsonpModule",
+    "replacedBy": "withJsonpSupport",
+    "replacementUrl": "https://angular.dev/api/common/http/withJsonpSupport"
+  },
+  {
+    "name": "HttpClientModule",
+    "replacedBy": "provideHttpClient",
+    "replacementUrl": "https://angular.dev/api/common/http/provideHttpClient"
+  },
+  {
+    "name": "HttpClientXsrfModule",
+    "replacedBy": "withXsrfConfiguration",
+    "replacementUrl": "https://angular.dev/api/common/http/withXsrfConfiguration"
+  },
+  {
+    "name": "HttpClientTestingModule",
+    "replacedBy": "provideHttpClientTesting",
+    "replacementUrl": "https://angular.dev/api/common/http/testing/provideHttpClientTesting"
+  },
+  {
+    "name": "DATE_PIPE_DEFAULT_TIMEZONE",
+    "replacedBy": "DATE_PIPE_DEFAULT_OPTIONS",
+    "replacementUrl": "https://angular.dev/api/common/DATE_PIPE_DEFAULT_OPTIONS"
+  },
+  {
+    "name": "getCurrencySymbol",
+    "replacedBy": "Intl.NumberFormat().formatToParts()",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/formatToParts"
+  },
+  {
+    "name": "getLocaleCurrencyCode",
+    "replacedBy": "a map of locale to ISO 4217 currency codes",
+    "replacementUrl": "https://www.unicode.org/cldr/charts/44/supplemental/detailed_territory_currency_information.html"
+  },
+  {
+    "name": "getLocaleCurrencyName",
+    "replacedBy": "Intl API",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl"
+  },
+  {
+    "name": "getLocaleCurrencySymbol",
+    "replacedBy": "Intl API",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl"
+  },
+  {
+    "name": "getLocaleDateFormat",
+    "replacedBy": "Intl.DateTimeFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+  },
+  {
+    "name": "getLocaleDateTimeFormat",
+    "replacedBy": "Intl.DateTimeFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+  },
+  {
+    "name": "getLocaleDayNames",
+    "replacedBy": "Intl.DateTimeFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+  },
+  {
+    "name": "getLocaleDayPeriods",
+    "replacedBy": "Intl.DateTimeFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+  },
+  {
+    "name": "getLocaleDirection",
+    "replacedBy": "Intl.DateTimeFormat && Intl.NumberFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat"
+  },
+  {
+    "name": "getLocaleEraNames",
+    "replacedBy": "Intl.DateTimeFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+  },
+  {
+    "name": "getLocaleExtraDayPeriodRules",
+    "replacedBy": "Intl.DateTimeFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+  },
+  {
+    "name": "getLocaleExtraDayPeriods",
+    "replacedBy": "Intl.DateTimeFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+  },
+  {
+    "name": "getLocaleExtraDayPeriods",
+    "replacedBy": "Intl.DateTimeFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+  },
+  {
+    "name": "getLocaleFirstDayOfWeek",
+    "replacedBy": "Intl.getWeekInfo",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getWeekInfo"
+  },
+  {
+    "name": "getLocaleId",
+    "replacedBy": "Intl",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl"
+  },
+  {
+    "name": "getLocaleMonthNames",
+    "replacedBy": "Intl.DateTimeFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+  },
+  {
+    "name": "getLocaleNumberFormat",
+    "replacedBy": "Intl.NumberFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat"
+  },
+  {
+    "name": "getLocaleNumberSymbol",
+    "replacedBy": "Intl.NumberFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat"
+  },
+  {
+    "name": "getLocalePluralCase",
+    "replacedBy": "Intl.PluralRules",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules"
+  },
+  {
+    "name": "getLocaleTimeFormat",
+    "replacedBy": "Intl.DateTimeFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+  },
+  {
+    "name": "getLocaleWeekEndRange",
+    "replacedBy": "Intl.getWeekInfo",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getWeekInfo"
+  },
+  {
+    "name": "getNumberOfCurrencyDigits",
+    "replacedBy": "Intl.NumberFormat",
+    "replacementUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat"
+  },
+  {
+    "name": "Time",
+    "replacedBy": "",
+    "replacementUrl": ""
+  },
+  {
+    "name": "ApplicationConfig",
+    "replacedBy": "ApplicationConfig (core)",
+    "replacementUrl": "https://angular.dev/api/core/ApplicationConfig"
+  },
+  {
+    "name": "Compiler",
+    "replacedBy": "not replaced as part of View Engine",
+    "replacementUrl": "https://github.com/angular/angular/issues/47621"
+  },
+  {
+    "name": "createNgModuleRef",
+    "replacedBy": "createNgModule",
+    "replacementUrl": "https://angular.dev/api/core/createNgModule"
+  },
+  {
+    "name": "DefaultIterableDiffer",
+    "replacedBy": "IterableDiffer",
+    "replacementUrl": "https://angular.dev/api/core/IterableDiffer"
+  },
+  {
+    "name": "getModuleFactory",
+    "replacedBy": "getNgModuleById",
+    "replacementUrl": "https://angular.dev/api/core/getNgModuleById"
+  },
+  {
+    "name": "ImportedNgModuleProviders",
+    "replacedBy": "EnvironmentProviders",
+    "replacementUrl": "https://angular.dev/api/core/EnvironmentProviders"
+  },
+  {
+    "name": "ModuleWithComponentFactories",
+    "replacedBy": "not replaced as not required by Ivy JIT",
+    "replacementUrl": "https://v17.angular.io/guide/deprecations#jit-api-changes-due-to-viewengine-deprecation"
+  },
+  {
+    "name": "NgProbeToken",
+    "replacedBy": "",
+    "replacementUrl": ""
+  },
+  {
+    "name": "PACKAGE_ROOT_URL",
+    "replacedBy": "",
+    "replacementUrl": ""
+  },
+  {
+    "name": "JitCompilerFactory",
+    "replacedBy": "not replaced as not required by Ivy JIT",
+    "replacementUrl": "https://v17.angular.io/guide/deprecations#jit-api-changes-due-to-viewengine-deprecation"
+  },
+  {
+    "name": "CanLoad",
+    "replacedBy": "CanMatch",
+    "replacementUrl": "https://angular.dev/api/router/CanMatch"
+  },
+  {
+    "name": "CanLoadFn",
+    "replacedBy": "CanMatchFn",
+    "replacementUrl": "https://angular.dev/api/router/CanMatchFn"
+  },
+  {
+    "name": "provideRoutes",
+    "replacedBy": "ROUTES Injection Token",
+    "replacementUrl": "https://angular.dev/api/router/ROUTES"
+  },
+  {
+    "name": "RouterTestingModule",
+    "replacedBy": "provideRouter",
+    "replacementUrl": "https://angular.dev/api/router/provideRouter"
+  },
+  {
+    "name": "UpgradeAdapter",
+    "replacedBy": "",
+    "replacementUrl": ""
+  },
+  {
+    "name": "UpgradeAdapterRef",
+    "replacedBy": "",
+    "replacementUrl": ""
+  },
+  {
+    "name": "downgradeModule",
+    "replacedBy": "",
+    "replacementUrl": ""
+  },
+  {
+    "name": "getAngularLib",
+    "replacedBy": "",
+    "replacementUrl": ""
+  },
+  {
+    "name": "setAngularLib",
+    "replacedBy": "",
+    "replacementUrl": ""
+  },
+  {
+    "name": "platformServerTesting",
+    "replacedBy": "Use e2e tests to verify SSR behavior instead of `TestBed`",
+    "replacementUrl": ""
+  },
+  {
+    "name": "ServerTestingModule",
+    "replacedBy": "Use e2e tests to verify SSR behavior instead of `TestBed`",
+    "replacementUrl": ""
+  },
+  {
+    "name": "afterRender",
+    "replacedBy": "afterEveryRender",
+    "replacementUrl": "https://angular.dev/api/core/afterEveryRender"
+  }
+]

@@ -1,0 +1,27 @@
+name: Feature or improvement
+description: An idea for the site, the data or the packages.
+title: 'feat: '
+labels: ['enhancement']
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would it solve?
+      description: Who needs it, and what do they do today instead.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you build?
+      description: As concrete as you can; a sketch or an example from another site is welcome.
+    validations:
+      required: true
+  - type: dropdown
+    id: help
+    attributes:
+      label: Would you like to work on it?
+      options:
+        - 'Yes, with some guidance'
+        - 'Yes, on my own'
+        - 'No'

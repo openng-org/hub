@@ -1,0 +1,41 @@
+{
+  "name": "@openng/core-angular-versions",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Angular version constants, semver helpers and the official Node/TypeScript/RxJS compatibility matrix.",
+  "homepage": "https://hub.openng.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openng-org/hub.git",
+    "directory": "packages/core-angular-versions"
+  },
+  "bugs": {
+    "url": "https://github.com/openng-org/hub/issues"
+  },
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src"
+  ],
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run --no-fsModuleCache"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

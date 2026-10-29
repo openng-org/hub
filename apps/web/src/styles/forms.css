@@ -1,0 +1,32 @@
+/* Contribute ----------------------------------------------------------------------------------- */
+
+/* Contribution form. */
+.hub-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+.hub-field > label,
+.hub-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.hub-optional {
+  margin-left: 0.25rem;
+  font-weight: 400;
+  color: var(--p-text-muted-color);
+}
+.hub-hint {
+  font-size: 0.8125rem;
+  color: var(--p-text-muted-color);
+}
+.hub-error {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--p-red-700);
+}
+.hub-dark {
+  .hub-error {
+    color: var(--p-red-400);
+  }
+}
