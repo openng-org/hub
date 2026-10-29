@@ -25,7 +25,7 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - name: Turborepo cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: .turbo
           key: turbo-${{ runner.os }}-${{ github.sha }}
@@ -63,7 +63,7 @@ jobs:
           name: site
           path: apps/web/dist
       - name: Playwright browser cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
