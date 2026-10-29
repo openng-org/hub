@@ -1,0 +1,129 @@
+/* Home ----------------------------------------------------------------------------------------- */
+
+/* Title screen: a faint pixel grid fading out from the centre, and a few drifting pixels. */
+.hub-hero {
+  overflow: hidden;
+}
+.hub-hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(
+      to right,
+      color-mix(in srgb, var(--p-primary-color) 14%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--p-primary-color) 14%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 32px 32px;
+  mask-image: radial-gradient(ellipse at center, #000 10%, transparent 70%);
+}
+.hub-hero-pixel {
+  position: absolute;
+  background: linear-gradient(135deg, #bf25b9, #1690fa);
+  opacity: 0.55;
+  animation: hub-drift 6s steps(6) infinite alternate;
+}
+.hub-hero-pixel:nth-of-type(even) {
+  background: linear-gradient(135deg, #836ae9, #00bee0);
+}
+@keyframes hub-drift {
+  to {
+    transform: translateY(-24px);
+  }
+}
+.hub-hero-logo {
+  filter: drop-shadow(6px 6px 0 color-mix(in srgb, #bf25b9 35%, transparent));
+  animation: hub-bob 1.6s steps(2) infinite;
+  image-rendering: pixelated;
+}
+@keyframes hub-bob {
+  50% {
+    transform: translateY(-6px);
+  }
+}
+.hub-hero-title {
+  line-height: 0.8;
+  filter: drop-shadow(6px 6px 0 color-mix(in srgb, #836ae9 30%, transparent));
+}
+/* Blinking, like an arcade prompt (the timeline's "today" label). */
+@keyframes hub-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Pixel buttons: a stepped shape with a hard sprite shadow that moves on hover and press. */
+.hub-pixel-btn {
+  --hub-px: 3px;
+  display: inline-flex;
+  filter: drop-shadow(4px 4px 0 color-mix(in srgb, #bf25b9 45%, transparent));
+  transition:
+    transform 0.08s steps(2),
+    filter 0.08s steps(2);
+}
+.hub-pixel-btn > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--hub-button-gradient);
+}
+.hub-pixel-btn-sm > span {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+.hub-pixel-btn-alt > span {
+  color: var(--p-text-color);
+  background: var(--p-surface-100);
+}
+.hub-pixel-btn:hover {
+  transform: translate(-2px, -2px);
+  filter: drop-shadow(6px 6px 0 color-mix(in srgb, #bf25b9 45%, transparent));
+}
+.hub-pixel-btn:active {
+  transform: translate(3px, 3px);
+  filter: drop-shadow(0 0 0 transparent);
+}
+.hub-pixel-btn:focus-visible {
+  outline: 2px solid var(--p-primary-color);
+  outline-offset: 4px;
+}
+
+/* Level select. */
+.hub-level-code {
+  min-width: 2.75rem;
+  padding: 0.15rem 0.35rem;
+  font: 1.15rem/1 var(--font-brand);
+  text-align: center;
+  color: var(--p-primary-color);
+  background: color-mix(in srgb, var(--p-primary-color) 14%, transparent);
+}
+.hub-level-arrow {
+  opacity: 0;
+  transform: translateX(-4px);
+  transition:
+    opacity 0.15s,
+    transform 0.15s steps(2);
+}
+.hub-level:hover .hub-level-arrow {
+  opacity: 1;
+  transform: none;
+}
+
+.hub-dark {
+  .hub-pixel-btn-alt > span {
+    background: var(--p-surface-800);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hub-hero-pixel,
+  .hub-hero-logo {
+    animation: none;
+  }
+}

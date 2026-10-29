@@ -1,0 +1,48 @@
+{
+  "name": "@openng/data-community",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Angular community data: events worldwide, the communities organizing them, and podcasts.",
+  "homepage": "https://hub.openng.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openng-org/hub.git",
+    "directory": "packages/data-community"
+  },
+  "bugs": {
+    "url": "https://github.com/openng-org/hub/issues"
+  },
+  "license": "MIT AND CC-BY-4.0",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src",
+    "data"
+  ],
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./validate": {
+      "source": "./src/validate.ts",
+      "types": "./dist/validate.d.ts",
+      "default": "./dist/validate.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run --no-fsModuleCache",
+    "merge-inbox": "node --experimental-strip-types scripts/merge-inbox.ts"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

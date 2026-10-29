@@ -1,0 +1,25 @@
+{
+  "name": "@openng/data-sync",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Refreshes the datasets generated from Angular's GitHub repositories: releases and their commits, deprecated public APIs, ng update migrations.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "sync": "node --env-file-if-exists=../../.env src/main.ts",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run --no-fsModuleCache"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:",
+    "@types/semver": "catalog:"
+  },
+  "dependencies": {
+    "@openng/data-libraries": "workspace:*",
+    "semver": "catalog:"
+  }
+}

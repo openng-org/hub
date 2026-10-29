@@ -1,0 +1,47 @@
+[
+  {
+    "major": 22,
+    "announcementUrl": "https://blog.angular.dev/announcing-angular-v22-c52bb83a4664",
+    "youtubeVideoId": "h5OJUSS_8IA"
+  },
+  {
+    "major": 21,
+    "announcementUrl": "https://blog.angular.dev/announcing-angular-v21-57946c34f14b",
+    "youtubeVideoId": "DDAHORVzQ5g"
+  },
+  {
+    "major": 20,
+    "announcementUrl": "https://blog.angular.dev/announcing-angular-v20-b5c9c06cf301",
+    "youtubeVideoId": "FcDamOe1qxA"
+  },
+  {
+    "major": 19,
+    "announcementUrl": "https://blog.angular.dev/meet-angular-v19-7b29dfd05b84",
+    "youtubeVideoId": "JvkX2_46gUY"
+  },
+  {
+    "major": 18,
+    "announcementUrl": "https://blog.angular.dev/angular-v18-is-now-available-e79d5ac0affe",
+    "youtubeVideoId": "DK8M-ZFjaMw"
+  },
+  {
+    "major": 17,
+    "announcementUrl": "https://blog.angular.dev/introducing-angular-v17-4d7033312e4b",
+    "youtubeVideoId": "36Hcx7kRYDg"
+  },
+  {
+    "major": 16,
+    "announcementUrl": "https://blog.angular.io/angular-v16-now-available-release-notes",
+    "youtubeVideoId": "bkOEMw0oTkY"
+  },
+  {
+    "major": 15,
+    "announcementUrl": "https://blog.angular.dev/angular-v15-is-now-available-df7be7f2f4c8",
+    "youtubeVideoId": "wzzHYojJqEs"
+  },
+  {
+    "major": 14,
+    "announcementUrl": "https://blog.angular.dev/angular-v14-is-now-available-391a6db736af",
+    "youtubeVideoId": "DVo7xttP_gg"
+  }
+]

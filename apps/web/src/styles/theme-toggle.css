@@ -1,0 +1,7 @@
+/* Theme toggle --------------------------------------------------------------------------------- */
+
+/* Theme toggle: both icons are rendered (SSR does not know the theme), the class picks one. */
+.hub-dark .hub-theme-light,
+html:not(.hub-dark) .hub-theme-dark {
+  display: none;
+}

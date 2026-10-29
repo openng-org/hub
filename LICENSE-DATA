@@ -1,0 +1,17 @@
+# Data licence
+
+The datasets of Angular Hub — every file under `packages/*/data/` and the curated feature lists in
+`packages/data-caniuse/src/caniuse.ts` and `packages/data-caniuse/src/eslint/data.ts` — are made
+available under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+
+You are free to share and adapt the data for any purpose, including commercially, as long as you
+give appropriate credit ("Angular Hub, https://hub.openng.org, CC BY 4.0"), link to the licence,
+and indicate if changes were made.
+
+- Licence summary: https://creativecommons.org/licenses/by/4.0/
+- Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The code of this repository (everything that is not data) is licensed under the MIT licence: see
+`LICENSE`. Logos of communities and podcasts under `apps/web/public/logos/` are the trademarks of
+their owners, shown for identification only, and are not covered by either licence: see
+`ATTRIBUTION.md`.

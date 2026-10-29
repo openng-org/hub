@@ -1,0 +1,61 @@
+name: Data sync
+
+# Regenerates the datasets read from Angular's repositories, npm and the GitHub Advisory Database
+# (Angular majors and compatibility, GitHub releases and their commits, deprecated public APIs,
+# ng update migrations, library health) and opens one pull request with the changes, checked by CI
+# before they reach main. No change, no PR.
+on:
+  schedule:
+    - cron: '23 5 * * 1' # Mondays
+  workflow_dispatch:
+    inputs:
+      steps:
+        description: 'Steps to run, space separated (versions releases apis migrations libraries); empty for all'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: data-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # Content at a tag never changes: keeping it between runs saves most requests.
+      - uses: actions/cache@v4
+        with:
+          path: packages/data-sync/node_modules/.cache
+          key: data-sync-${{ github.run_id }}
+          restore-keys: data-sync-
+      - name: Sync
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STEPS: ${{ inputs.steps }}
+        run: pnpm data:sync $STEPS
+      # A pull request opened with the default GITHUB_TOKEN does not trigger other workflows: add a
+      # DATA_SYNC_TOKEN secret (a token allowed to open pull requests) for CI to run on it.
+      - name: Open or update the pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.DATA_SYNC_TOKEN || secrets.GITHUB_TOKEN }}
+          branch: chore/data-sync
+          title: 'data: sync Angular versions, releases, APIs, migrations and library health'
+          commit-message: 'data: sync Angular versions, releases, APIs, migrations and library health'
+          body: |
+            Automated run of `pnpm data:sync` (`.github/workflows/data-sync.yml`).
+            Review the diff, let CI run, then merge.
+          labels: data
+          delete-branch: true
