@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Add an event, a community or a podcast
+    url: https://hub.openng.org/contribute
+    about: The form builds the entry and opens the pull request for you, no setup needed.
+  - name: Security issue
+    url: https://github.com/openng-org/hub/security/policy
+    about: Please report vulnerabilities privately, never in a public issue.

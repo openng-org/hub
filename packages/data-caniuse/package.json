@@ -1,0 +1,66 @@
+{
+  "name": "@openng/data-caniuse",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Can I Use for Angular: curated feature statuses per version, public API evolution, ng update migrations, angular-eslint rules and the Angular MCP server catalog.",
+  "homepage": "https://hub.openng.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openng-org/hub.git",
+    "directory": "packages/data-caniuse"
+  },
+  "bugs": {
+    "url": "https://github.com/openng-org/hub/issues"
+  },
+  "license": "MIT AND CC-BY-4.0",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src",
+    "data"
+  ],
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./caniuse": {
+      "source": "./src/caniuse.ts",
+      "types": "./dist/caniuse.d.ts",
+      "default": "./dist/caniuse.js"
+    },
+    "./migrations": {
+      "source": "./src/migrations.ts",
+      "types": "./dist/migrations.d.ts",
+      "default": "./dist/migrations.js"
+    },
+    "./eslint": {
+      "source": "./src/eslint/index.ts",
+      "types": "./dist/eslint/index.d.ts",
+      "default": "./dist/eslint/index.js"
+    },
+    "./mcp": {
+      "source": "./src/mcp/index.ts",
+      "types": "./dist/mcp/index.d.ts",
+      "default": "./dist/mcp/index.js"
+    },
+    "./data/*.json": "./data/*.json"
+  },
+  "scripts": {
+    "build": "tsup",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run --no-fsModuleCache"
+  },
+  "dependencies": {
+    "@openng/core-angular-versions": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

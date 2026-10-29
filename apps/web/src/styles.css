@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+@import '@openng/optimus-ui-tailwindcss';
+
+/*
+ * Dark mode is a class on <html> (.hub-dark), set before first paint by the script in index.html
+ * from the visitor's choice (header toggle, saved in localStorage) or, without one, the OS setting.
+ * Tailwind's dark: variant, Optimus (darkModeSelector) and the rules below all follow that class.
+ */
+@custom-variant dark (&:where(.hub-dark, .hub-dark *));
+
+/*
+ * Brand font (wordmark and page titles): Jersey 10, SIL OFL 1.1, Latin subset.
+ * Source: public/fonts — https://github.com/scfried/soft-type-jersey
+ */
+@font-face {
+  font-family: 'Jersey 10';
+  src: url('/fonts/jersey-10-latin.woff2') format('woff2');
+  /* Single weight: never let the browser fake a bold, it smears the pixels. */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-brand: 'Jersey 10', ui-monospace, monospace;
+}
+
+/*
+ * Status palette for the Can I Use matrix, legends and diff views.
+ * Built on the Optimus UI primitive tokens so it follows the active preset and dark mode.
+ */
+@theme inline {
+  --color-status-experimental: var(--p-amber-500);
+  --color-status-preview: var(--p-blue-500);
+  --color-status-stable: var(--p-green-500);
+  --color-status-deprecated: var(--p-red-500);
+  --color-status-removed: var(--p-red-700);
+  --color-status-upcoming: var(--p-surface-400);
+  --color-muted: var(--p-text-muted-color);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/*
+ * Site styles, one partial per area. Tailwind inlines these imports in place, so the order below
+ * is the cascade order: keep it when adding a partial.
+ */
+@import './styles/base.css'; /* brand tokens, colour scheme, body, wordmark, field density, icons */
+@import './styles/pixel.css'; /* pixel-art primitives: badge, box, corners, frame, page title */
+@import './styles/ui.css'; /* shared UI: link surfaces, chips, calendar tile, header menu, logo frame */
+@import './styles/caniuse.css'; /* Can I Use: status matrix, data table, tooltip, notes */
+@import './styles/release.css'; /* release insights */
+@import './styles/home.css'; /* home: hero, pixel buttons, level select */
+@import './styles/map.css'; /* events map */
+@import './styles/theme-toggle.css'; /* header theme toggle */
+@import './styles/forms.css'; /* contribution form */
+@import './styles/timeline.css'; /* release timeline (home) */

@@ -1,0 +1,90 @@
+/* Base: brand tokens, colour scheme, body, wordmark, field density, icons ---------------------- */
+
+/*
+ * Brand gradients, tuned for WCAG AA: every stop of the text gradient keeps 4.5:1 on the page and
+ * pixel-box surfaces (so even the small wordmarks read), and white text keeps 4.5:1 on every stop of
+ * the button gradient. The decorative badge keeps the logo's own colours.
+ */
+:root {
+  --hub-text-gradient: linear-gradient(to right, #a21f9d, #6d4fd8, #0b6bc4, #0a6fa0, #0b7189);
+  --hub-button-gradient: linear-gradient(135deg, #a21f9d, #6d4fd8 55%, #0b6bc4);
+}
+:root.hub-dark {
+  --hub-text-gradient: linear-gradient(to right, #d050cc, #9a86ef, #3fa4fb, #22b8f6, #00bee0);
+}
+
+html {
+  color-scheme: light;
+}
+html.hub-dark {
+  color-scheme: dark;
+}
+
+@layer base {
+  body {
+    background: var(--p-surface-0);
+    color: var(--p-text-color);
+    font-family:
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      'Segoe UI',
+      Roboto,
+      sans-serif;
+  }
+  .hub-dark {
+    body {
+      background: var(--p-surface-950);
+    }
+  }
+}
+
+/* The wordmark: the brand font over the angular-hub gradient (magenta → cyan). */
+.hub-wordmark {
+  font-family: var(--font-brand);
+  font-weight: 400;
+  font-synthesis: none;
+  letter-spacing: 0.02em;
+  background-image: var(--hub-text-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/*
+ * Filter fields at the density of the Optimus docs, whose root font size is 14px. Optimus sizes
+ * fields in rem (relative to <html>), so a font-size on a wrapper alone changes nothing: the
+ * wrapper sets 14px and restates the field sizes in em, relative to that font. Overlays that
+ * render inside the wrapper (select options) follow too.
+ */
+.filter-bar {
+  font-size: 0.875rem;
+  --p-icon-size: 1em;
+  --p-form-field-padding-x: 0.75em;
+  --p-inputtext-padding-x: 0.75em;
+  --p-inputtext-padding-y: 0.5em;
+  --p-select-padding-x: 0.75em;
+  --p-select-padding-y: 0.5em;
+  --p-select-dropdown-width: 2.5em;
+  --p-select-option-padding: 0.5em 0.75em;
+}
+.filter-bar .p-inputtext,
+.filter-bar .p-select-label {
+  font-size: 1em;
+}
+
+/*
+ * Flask icon for the "experimental" status. @openng/icons has no flask, so this one is drawn here
+ * and plugs into the same `pi pi-*` convention: it is a mask filled with the current text color,
+ * sized to 1em like the font glyphs.
+ */
+.pi-flask::before {
+  content: '';
+  display: block;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8.5 3h7'/%3E%3Cpath d='M10 3v6.2L4.4 18.3A1.8 1.8 0 0 0 6 21h12a1.8 1.8 0 0 0 1.6-2.7L14 9.2V3'/%3E%3Cpath d='M6.8 15h10.4'/%3E%3C/svg%3E")
+    center / contain no-repeat;
+}

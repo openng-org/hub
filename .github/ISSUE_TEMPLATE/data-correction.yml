@@ -1,0 +1,46 @@
+name: Data correction
+description: Something on the hub is wrong, missing or outdated (an event, a community, a podcast, a feature status, a release).
+title: 'data: '
+labels: ['data']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        To **add** an event, a community or a podcast, the [contribute form](https://hub.openng.org/contribute) opens the pull request for you. Use this template for corrections, or if you prefer that a maintainer makes the change.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of data?
+      options:
+        - Event
+        - Community
+        - Podcast
+        - Can I Use (feature status, migration, ESLint rule, MCP server)
+        - Release insights
+        - Angular versions / support windows
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Where on the hub?
+      description: The page URL (for example https://hub.openng.org/events or https://hub.openng.org/caniuse/signal-inputs).
+      placeholder: https://hub.openng.org/…
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is wrong, and what should it be?
+      description: Current value and the correct one; for a missing entry, every detail you have (name, date, city or online, URL, call for papers).
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link that confirms the correction (the organizer's page, the podcast feed, an Angular commit or doc).
+      placeholder: https://…
+    validations:
+      required: true

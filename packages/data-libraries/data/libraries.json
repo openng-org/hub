@@ -1,0 +1,2870 @@
+[
+  {
+    "name": "@abacritt/angularx-social-login",
+    "category": "auth"
+  },
+  {
+    "name": "@abbasmgz/ngx-web-tour",
+    "category": "ui"
+  },
+  {
+    "name": "abp-ng2-module",
+    "category": "other"
+  },
+  {
+    "name": "ack-angular",
+    "category": "other"
+  },
+  {
+    "name": "ag-charts-angular",
+    "category": "charts"
+  },
+  {
+    "name": "ag-grid-angular",
+    "category": "ui"
+  },
+  {
+    "name": "ag-virtual-scroll",
+    "category": "ui"
+  },
+  {
+    "name": "akita-filters-plugin",
+    "category": "state"
+  },
+  {
+    "name": "akita-ng-fire",
+    "category": "state"
+  },
+  {
+    "name": "@alauda/ui",
+    "category": "ui"
+  },
+  {
+    "name": "@alfresco/adf-content-services",
+    "category": "other"
+  },
+  {
+    "name": "@alfresco/adf-core",
+    "category": "other"
+  },
+  {
+    "name": "@alfresco/adf-extensions",
+    "category": "other"
+  },
+  {
+    "name": "@alfresco/adf-insights",
+    "category": "tooling"
+  },
+  {
+    "name": "@alfresco/adf-process-services",
+    "category": "other"
+  },
+  {
+    "name": "@alfresco/adf-process-services-cloud",
+    "category": "other"
+  },
+  {
+    "name": "alphabet-filter",
+    "category": "ui"
+  },
+  {
+    "name": "@alyle/ui",
+    "category": "ui"
+  },
+  {
+    "name": "ang-jsoneditor",
+    "category": "forms"
+  },
+  {
+    "name": "@angular-architects/module-federation",
+    "category": "tooling"
+  },
+  {
+    "name": "@angular-architects/native-federation",
+    "category": "tooling"
+  },
+  {
+    "name": "@angular-architects/ngrx-toolkit",
+    "category": "state"
+  },
+  {
+    "name": "angular-archwizard",
+    "category": "ui"
+  },
+  {
+    "name": "angular-audio-context",
+    "category": "utilities"
+  },
+  {
+    "name": "angular-auth-oidc-client",
+    "category": "auth"
+  },
+  {
+    "name": "angular-bootstrap-datetimepicker",
+    "category": "forms"
+  },
+  {
+    "name": "@angular-builders/custom-webpack",
+    "category": "tooling"
+  },
+  {
+    "name": "@angular-builders/jest",
+    "category": "testing"
+  },
+  {
+    "name": "angular-calendar",
+    "category": "ui"
+  },
+  {
+    "name": "angular-calendar-scheduler",
+    "category": "ui"
+  },
+  {
+    "name": "angular-cc-library",
+    "category": "other"
+  },
+  {
+    "name": "angular-code-input",
+    "category": "forms"
+  },
+  {
+    "name": "angular-confirmation-popover",
+    "category": "ui"
+  },
+  {
+    "name": "@angular-cool/social-login-buttons",
+    "category": "auth"
+  },
+  {
+    "name": "@angular-cool/storage",
+    "category": "data"
+  },
+  {
+    "name": "angular-dark-mode",
+    "category": "utilities"
+  },
+  {
+    "name": "angular-datatables",
+    "category": "ui"
+  },
+  {
+    "name": "angular-date-value-accessor",
+    "category": "forms"
+  },
+  {
+    "name": "angular-draggable-droppable",
+    "category": "ui"
+  },
+  {
+    "name": "angular-dual-listbox",
+    "category": "other"
+  },
+  {
+    "name": "angular-feather",
+    "category": "content"
+  },
+  {
+    "name": "angular-file-uploader",
+    "category": "forms"
+  },
+  {
+    "name": "angular-font-awesome",
+    "category": "content"
+  },
+  {
+    "name": "angular-google-charts",
+    "category": "charts"
+  },
+  {
+    "name": "angular-gridster2",
+    "category": "ui"
+  },
+  {
+    "name": "angular-highcharts",
+    "category": "charts"
+  },
+  {
+    "name": "angular-i18next",
+    "category": "i18n"
+  },
+  {
+    "name": "angular-iban",
+    "category": "forms"
+  },
+  {
+    "name": "angular-imask",
+    "category": "forms"
+  },
+  {
+    "name": "angular-instantsearch",
+    "category": "content"
+  },
+  {
+    "name": "angular-l10n",
+    "category": "i18n"
+  },
+  {
+    "name": "@angular-material-components/color-picker",
+    "category": "ui"
+  },
+  {
+    "name": "@angular-material-components/datetime-picker",
+    "category": "ui"
+  },
+  {
+    "name": "@angular-material-components/file-input",
+    "category": "ui"
+  },
+  {
+    "name": "angular-material-css-vars",
+    "category": "ui"
+  },
+  {
+    "name": "@angular-mdl/core",
+    "category": "other"
+  },
+  {
+    "name": "angular-mentions",
+    "category": "ui"
+  },
+  {
+    "name": "angular-notifier",
+    "category": "ui"
+  },
+  {
+    "name": "angular-oauth2-oidc",
+    "category": "auth"
+  },
+  {
+    "name": "angular-paginator",
+    "category": "ui"
+  },
+  {
+    "name": "angular-playground",
+    "category": "tooling"
+  },
+  {
+    "name": "angular-popout-window",
+    "category": "ui"
+  },
+  {
+    "name": "angular-prerender",
+    "category": "tooling"
+  },
+  {
+    "name": "@angular-react/core",
+    "category": "other"
+  },
+  {
+    "name": "@angular-react/fabric",
+    "category": "other"
+  },
+  {
+    "name": "angular-reactive-validation",
+    "category": "forms"
+  },
+  {
+    "name": "angular-recaptcha3",
+    "category": "auth"
+  },
+  {
+    "name": "angular-remix-icon",
+    "category": "content"
+  },
+  {
+    "name": "angular-resizable-element",
+    "category": "ui"
+  },
+  {
+    "name": "angular-resize-element",
+    "category": "utilities"
+  },
+  {
+    "name": "angular-resize-event",
+    "category": "utilities"
+  },
+  {
+    "name": "angular-responsive-carousel",
+    "category": "ui"
+  },
+  {
+    "name": "angular-safeguard",
+    "category": "auth"
+  },
+  {
+    "name": "angular-server-side-configuration",
+    "category": "tooling"
+  },
+  {
+    "name": "angular-shepherd",
+    "category": "ui"
+  },
+  {
+    "name": "angular-slickgrid",
+    "category": "ui"
+  },
+  {
+    "name": "@angular-slider/ngx-slider",
+    "category": "ui"
+  },
+  {
+    "name": "angular-split",
+    "category": "ui"
+  },
+  {
+    "name": "angular-star-rating",
+    "category": "ui"
+  },
+  {
+    "name": "angular-stl-model-viewer",
+    "category": "content"
+  },
+  {
+    "name": "angular-svg-icon",
+    "category": "content"
+  },
+  {
+    "name": "angular-svg-icon-preloader",
+    "category": "content"
+  },
+  {
+    "name": "angular-svg-round-progressbar",
+    "category": "content"
+  },
+  {
+    "name": "angular-tabler-icons",
+    "category": "content"
+  },
+  {
+    "name": "angular-tree-component",
+    "category": "ui"
+  },
+  {
+    "name": "angular-tree-grid",
+    "category": "ui"
+  },
+  {
+    "name": "angular-twitter-timeline",
+    "category": "content"
+  },
+  {
+    "name": "angular-unit-test-helper",
+    "category": "testing"
+  },
+  {
+    "name": "@angular/fire",
+    "category": "data"
+  },
+  {
+    "name": "@angular/flex-layout",
+    "category": "ui"
+  },
+  {
+    "name": "angular2-actioncable",
+    "category": "data"
+  },
+  {
+    "name": "angular2-draggable",
+    "category": "ui"
+  },
+  {
+    "name": "angular2-highlight-js",
+    "category": "content"
+  },
+  {
+    "name": "angular2-hotkeys",
+    "category": "utilities"
+  },
+  {
+    "name": "angular2-image-gallery",
+    "category": "content"
+  },
+  {
+    "name": "angular2-ladda",
+    "category": "ui"
+  },
+  {
+    "name": "angular2-promise-buttons",
+    "category": "ui"
+  },
+  {
+    "name": "angular2gridster",
+    "category": "ui"
+  },
+  {
+    "name": "angular4-paystack",
+    "category": "data"
+  },
+  {
+    "name": "angular8-yandex-maps",
+    "category": "content"
+  },
+  {
+    "name": "angularx-flatpickr",
+    "category": "other"
+  },
+  {
+    "name": "angularx-qrcode",
+    "category": "utilities"
+  },
+  {
+    "name": "angularx-social-login",
+    "category": "auth"
+  },
+  {
+    "name": "@antv/x6-angular-shape",
+    "category": "other"
+  },
+  {
+    "name": "apollo-angular",
+    "category": "data"
+  },
+  {
+    "name": "@auth0/angular-jwt",
+    "category": "auth"
+  },
+  {
+    "name": "@auth0/auth0-angular",
+    "category": "auth"
+  },
+  {
+    "name": "@azure/msal-angular",
+    "category": "auth"
+  },
+  {
+    "name": "@badisi/wdio-harness",
+    "category": "testing"
+  },
+  {
+    "name": "bdc-walkthrough",
+    "category": "ui"
+  },
+  {
+    "name": "@bespunky/angular-zen",
+    "category": "utilities"
+  },
+  {
+    "name": "@bigbear713/nb-common",
+    "category": "utilities"
+  },
+  {
+    "name": "@bloomreach/ng-sdk",
+    "category": "other"
+  },
+  {
+    "name": "@bravura/ui",
+    "category": "ui"
+  },
+  {
+    "name": "@brightlayer-ui/angular-components",
+    "category": "ui"
+  },
+  {
+    "name": "@brightlayer-ui/angular-themes",
+    "category": "ui"
+  },
+  {
+    "name": "@brunoc/ngx-viacep",
+    "category": "other"
+  },
+  {
+    "name": "@c8y/ngx-components",
+    "category": "ui"
+  },
+  {
+    "name": "@candidosales/material-time-picker",
+    "category": "forms"
+  },
+  {
+    "name": "@carbon/charts-angular",
+    "category": "charts"
+  },
+  {
+    "name": "@casl/angular",
+    "category": "auth"
+  },
+  {
+    "name": "cdk-table-exporter",
+    "category": "ui"
+  },
+  {
+    "name": "@cds/angular",
+    "category": "other"
+  },
+  {
+    "name": "@circlon/angular-tree-component",
+    "category": "ui"
+  },
+  {
+    "name": "@cisstech/nge",
+    "category": "other"
+  },
+  {
+    "name": "@ckeditor/ckeditor5-angular",
+    "category": "forms"
+  },
+  {
+    "name": "ckeditor4-angular",
+    "category": "forms"
+  },
+  {
+    "name": "@clr/angular",
+    "category": "ui"
+  },
+  {
+    "name": "codelyzer",
+    "category": "tooling"
+  },
+  {
+    "name": "@coreui/angular",
+    "category": "ui"
+  },
+  {
+    "name": "@coreui/icons-angular",
+    "category": "content"
+  },
+  {
+    "name": "countries-map",
+    "category": "content"
+  },
+  {
+    "name": "@covalent/code-editor",
+    "category": "forms"
+  },
+  {
+    "name": "@covalent/dynamic-forms",
+    "category": "forms"
+  },
+  {
+    "name": "@covalent/echarts",
+    "category": "charts"
+  },
+  {
+    "name": "@covalent/flavored-markdown",
+    "category": "content"
+  },
+  {
+    "name": "@covalent/guided-tour",
+    "category": "ui"
+  },
+  {
+    "name": "@covalent/highlight",
+    "category": "content"
+  },
+  {
+    "name": "@covalent/http",
+    "category": "data"
+  },
+  {
+    "name": "@covalent/markdown",
+    "category": "content"
+  },
+  {
+    "name": "@covalent/markdown-navigator",
+    "category": "content"
+  },
+  {
+    "name": "@covalent/text-editor",
+    "category": "forms"
+  },
+  {
+    "name": "@ctrl/ngx-chartjs",
+    "category": "charts"
+  },
+  {
+    "name": "@ctrl/ngx-codemirror",
+    "category": "forms"
+  },
+  {
+    "name": "@ctrl/ngx-csv",
+    "category": "other"
+  },
+  {
+    "name": "@ctrl/ngx-emoji-mart",
+    "category": "content"
+  },
+  {
+    "name": "@ctrl/ngx-headroom",
+    "category": "ui"
+  },
+  {
+    "name": "@ctrl/ngx-numbered-codeblock",
+    "category": "other"
+  },
+  {
+    "name": "@ctrl/ngx-rightclick",
+    "category": "ui"
+  },
+  {
+    "name": "@cumul.io/ngx-cumulio-dashboard",
+    "category": "ui"
+  },
+  {
+    "name": "@daelmaak/ngx-gallery",
+    "category": "content"
+  },
+  {
+    "name": "@danielmoncada/angular-datetime-picker",
+    "category": "forms"
+  },
+  {
+    "name": "@danielmoncada/angular-datetime-picker-dayjs-adapter",
+    "category": "forms"
+  },
+  {
+    "name": "@danielmoncada/angular-datetime-picker-moment-adapter",
+    "category": "forms"
+  },
+  {
+    "name": "@datorama/akita",
+    "category": "state"
+  },
+  {
+    "name": "@datorama/akita-ng-entity-service",
+    "category": "state"
+  },
+  {
+    "name": "@datorama/akita-ng-router-store",
+    "category": "state"
+  },
+  {
+    "name": "@datorama/akita-ngdevtools",
+    "category": "state"
+  },
+  {
+    "name": "@deja-js/component",
+    "category": "ui"
+  },
+  {
+    "name": "desy-angular",
+    "category": "other"
+  },
+  {
+    "name": "@digest/angular",
+    "category": "utilities"
+  },
+  {
+    "name": "@digitalascetic/ngx-pica",
+    "category": "other"
+  },
+  {
+    "name": "@docgeni/cli",
+    "category": "tooling"
+  },
+  {
+    "name": "@dynatrace/barista-components",
+    "category": "ui"
+  },
+  {
+    "name": "@eisberg-labs/ngx-barcode-scanner",
+    "category": "utilities"
+  },
+  {
+    "name": "elements-zone-strategy",
+    "category": "tooling"
+  },
+  {
+    "name": "@exalif/ngx-breadcrumbs",
+    "category": "utilities"
+  },
+  {
+    "name": "@exalif/ngx-skeleton-loader",
+    "category": "ui"
+  },
+  {
+    "name": "file-input-accessor",
+    "category": "forms"
+  },
+  {
+    "name": "firebaseui-angular",
+    "category": "data"
+  },
+  {
+    "name": "@foblex/flow",
+    "category": "other"
+  },
+  {
+    "name": "@formio/angular",
+    "category": "forms"
+  },
+  {
+    "name": "frakton-ng",
+    "category": "other"
+  },
+  {
+    "name": "@frxjs/ngx-timeline",
+    "category": "ui"
+  },
+  {
+    "name": "@fullcalendar/angular",
+    "category": "ui"
+  },
+  {
+    "name": "@funnelback/ng-sds",
+    "category": "other"
+  },
+  {
+    "name": "@geoapify/angular-geocoder-autocomplete",
+    "category": "content"
+  },
+  {
+    "name": "@gernsdorfer/ngrx-lite",
+    "category": "state"
+  },
+  {
+    "name": "@gilsdav/ngx-translate-router",
+    "category": "i18n"
+  },
+  {
+    "name": "@gorniv/ngx-universal",
+    "category": "tooling"
+  },
+  {
+    "name": "@grapecity/activereports-angular",
+    "category": "other"
+  },
+  {
+    "name": "gridjs-angular",
+    "category": "ui"
+  },
+  {
+    "name": "@halloverden/ngx-cookiebot",
+    "category": "auth"
+  },
+  {
+    "name": "@handsontable/angular",
+    "category": "ui"
+  },
+  {
+    "name": "highcharts-angular",
+    "category": "charts"
+  },
+  {
+    "name": "@hmcts/media-viewer",
+    "category": "content"
+  },
+  {
+    "name": "@idea-ionic/agenda",
+    "category": "ui"
+  },
+  {
+    "name": "@idea-ionic/auth",
+    "category": "auth"
+  },
+  {
+    "name": "@idea-ionic/common",
+    "category": "utilities"
+  },
+  {
+    "name": "@idea-ionic/map",
+    "category": "content"
+  },
+  {
+    "name": "@idea-ionic/teams",
+    "category": "ui"
+  },
+  {
+    "name": "igniteui-angular",
+    "category": "ui"
+  },
+  {
+    "name": "@iharbeck/ngx-virtual-scroller",
+    "category": "ui"
+  },
+  {
+    "name": "@ikilote/magma",
+    "category": "other"
+  },
+  {
+    "name": "@indigina/ui-kit",
+    "category": "ui"
+  },
+  {
+    "name": "@ionic/angular",
+    "category": "ui"
+  },
+  {
+    "name": "@ionic/angular-server",
+    "category": "ui"
+  },
+  {
+    "name": "@iplab/ngx-color-picker",
+    "category": "forms"
+  },
+  {
+    "name": "@iplab/ngx-file-upload",
+    "category": "forms"
+  },
+  {
+    "name": "@jaspero/ng-helpers",
+    "category": "utilities"
+  },
+  {
+    "name": "jest-preset-angular",
+    "category": "testing"
+  },
+  {
+    "name": "@jsonforms/angular",
+    "category": "forms"
+  },
+  {
+    "name": "@jsverse/transloco",
+    "category": "i18n"
+  },
+  {
+    "name": "@jufab/opentelemetry-angular-interceptor",
+    "category": "tooling"
+  },
+  {
+    "name": "just-lightbox",
+    "category": "content"
+  },
+  {
+    "name": "@katoid/angular-grid-layout",
+    "category": "ui"
+  },
+  {
+    "name": "keycloak-angular",
+    "category": "auth"
+  },
+  {
+    "name": "@kirbydesign/designsystem",
+    "category": "ui"
+  },
+  {
+    "name": "@kneefer/ngx-translate-resx-http-loader",
+    "category": "i18n"
+  },
+  {
+    "name": "@kolkov/angular-editor",
+    "category": "forms"
+  },
+  {
+    "name": "@kolkov/ngx-gallery",
+    "category": "content"
+  },
+  {
+    "name": "@lagoshny/ngx-validation-messages",
+    "category": "forms"
+  },
+  {
+    "name": "@larscom/ngrx-store-storagesync",
+    "category": "state"
+  },
+  {
+    "name": "@larscom/ngx-translate-module-loader",
+    "category": "i18n"
+  },
+  {
+    "name": "@libusoftcicom/lc-datepicker",
+    "category": "forms"
+  },
+  {
+    "name": "@lithiumjs/angular",
+    "category": "other"
+  },
+  {
+    "name": "lucide-angular",
+    "category": "content"
+  },
+  {
+    "name": "luxon-angular",
+    "category": "utilities"
+  },
+  {
+    "name": "@maaxgr/ang-jsoneditor",
+    "category": "forms"
+  },
+  {
+    "name": "@manekinekko/angular-web-bluetooth",
+    "category": "utilities"
+  },
+  {
+    "name": "@mantic-ui/fomantic-ui-angular",
+    "category": "ui"
+  },
+  {
+    "name": "@mantic-ui/semantic-ui-angular",
+    "category": "ui"
+  },
+  {
+    "name": "@maplibre/ngx-maplibre-gl",
+    "category": "content"
+  },
+  {
+    "name": "@markpieszak/ng-application-insights",
+    "category": "tooling"
+  },
+  {
+    "name": "mat-file-upload",
+    "category": "forms"
+  },
+  {
+    "name": "mat-progress-buttons",
+    "category": "ui"
+  },
+  {
+    "name": "mat-select-filter",
+    "category": "forms"
+  },
+  {
+    "name": "mat-table-exporter",
+    "category": "ui"
+  },
+  {
+    "name": "mat-table-filter",
+    "category": "ui"
+  },
+  {
+    "name": "mat-timepicker",
+    "category": "forms"
+  },
+  {
+    "name": "material-community-components",
+    "category": "ui"
+  },
+  {
+    "name": "material-dynamic-table",
+    "category": "ui"
+  },
+  {
+    "name": "mathjax-angular",
+    "category": "content"
+  },
+  {
+    "name": "@meddv/ngx-pinch-zoom",
+    "category": "ui"
+  },
+  {
+    "name": "@micro-sentry/angular",
+    "category": "tooling"
+  },
+  {
+    "name": "mini-rx-store-ng",
+    "category": "state"
+  },
+  {
+    "name": "mobx-angular",
+    "category": "state"
+  },
+  {
+    "name": "moment-timezone-picker",
+    "category": "forms"
+  },
+  {
+    "name": "@momentum-ui/angular",
+    "category": "utilities"
+  },
+  {
+    "name": "@ncstate/sat-popover",
+    "category": "ui"
+  },
+  {
+    "name": "@nebular/auth",
+    "category": "auth"
+  },
+  {
+    "name": "@nebular/firebase-auth",
+    "category": "auth"
+  },
+  {
+    "name": "@nebular/security",
+    "category": "ui"
+  },
+  {
+    "name": "@nebular/theme",
+    "category": "ui"
+  },
+  {
+    "name": "@netcreaties/ngx-smart-banner",
+    "category": "ui"
+  },
+  {
+    "name": "ng-alt-snotify",
+    "category": "ui"
+  },
+  {
+    "name": "ng-animate",
+    "category": "other"
+  },
+  {
+    "name": "ng-apexcharts",
+    "category": "charts"
+  },
+  {
+    "name": "ng-azure-maps",
+    "category": "content"
+  },
+  {
+    "name": "ng-block-ui",
+    "category": "ui"
+  },
+  {
+    "name": "ng-boosted",
+    "category": "other"
+  },
+  {
+    "name": "@ng-bootstrap/ng-bootstrap",
+    "category": "ui"
+  },
+  {
+    "name": "ng-brazil",
+    "category": "other"
+  },
+  {
+    "name": "ng-busy",
+    "category": "ui"
+  },
+  {
+    "name": "ng-chartist",
+    "category": "charts"
+  },
+  {
+    "name": "ng-circle-progress",
+    "category": "ui"
+  },
+  {
+    "name": "ng-click-outside",
+    "category": "utilities"
+  },
+  {
+    "name": "ng-click-outside2",
+    "category": "utilities"
+  },
+  {
+    "name": "ng-connection-service",
+    "category": "data"
+  },
+  {
+    "name": "ng-devui",
+    "category": "ui"
+  },
+  {
+    "name": "ng-drag-drop",
+    "category": "ui"
+  },
+  {
+    "name": "ng-dynamic-component",
+    "category": "utilities"
+  },
+  {
+    "name": "@ng-dynamic-forms/core",
+    "category": "forms"
+  },
+  {
+    "name": "@ng-dynamic-forms/ui-material",
+    "category": "forms"
+  },
+  {
+    "name": "ng-event-bus",
+    "category": "data"
+  },
+  {
+    "name": "ng-extract-i18n-merge",
+    "category": "i18n"
+  },
+  {
+    "name": "ng-http-loader",
+    "category": "data"
+  },
+  {
+    "name": "@ng-icons/core",
+    "category": "content"
+  },
+  {
+    "name": "@ng-idle/core",
+    "category": "utilities"
+  },
+  {
+    "name": "@ng-idle/keepalive",
+    "category": "utilities"
+  },
+  {
+    "name": "ng-image-fullscreen-view",
+    "category": "content"
+  },
+  {
+    "name": "ng-image-slider",
+    "category": "content"
+  },
+  {
+    "name": "ng-inline-svg",
+    "category": "content"
+  },
+  {
+    "name": "ng-inline-svg-2",
+    "category": "content"
+  },
+  {
+    "name": "ng-json-view",
+    "category": "ui"
+  },
+  {
+    "name": "ng-jvx-multiselect",
+    "category": "forms"
+  },
+  {
+    "name": "ng-keyboard-shortcuts",
+    "category": "utilities"
+  },
+  {
+    "name": "ng-lazyload-image",
+    "category": "content"
+  },
+  {
+    "name": "ng-lightning",
+    "category": "ui"
+  },
+  {
+    "name": "ng-loaders",
+    "category": "ui"
+  },
+  {
+    "name": "@ng-maps/core",
+    "category": "content"
+  },
+  {
+    "name": "@ng-maps/google",
+    "category": "content"
+  },
+  {
+    "name": "@ng-maps/marker-clusterer",
+    "category": "content"
+  },
+  {
+    "name": "@ng-maps/places",
+    "category": "content"
+  },
+  {
+    "name": "ng-material-multilevel-menu",
+    "category": "ui"
+  },
+  {
+    "name": "@ng-matero/extensions",
+    "category": "other"
+  },
+  {
+    "name": "ng-miam",
+    "category": "other"
+  },
+  {
+    "name": "ng-mockito",
+    "category": "testing"
+  },
+  {
+    "name": "ng-mocks",
+    "category": "testing"
+  },
+  {
+    "name": "ng-overlay-container",
+    "category": "ui"
+  },
+  {
+    "name": "ng-packagr",
+    "category": "tooling"
+  },
+  {
+    "name": "ng-pick-datetime-ex",
+    "category": "forms"
+  },
+  {
+    "name": "ng-qrcode",
+    "category": "utilities"
+  },
+  {
+    "name": "ng-recaptcha",
+    "category": "auth"
+  },
+  {
+    "name": "ng-recaptcha-2",
+    "category": "auth"
+  },
+  {
+    "name": "ng-select",
+    "category": "forms"
+  },
+  {
+    "name": "@ng-select/ng-select",
+    "category": "ui"
+  },
+  {
+    "name": "ng-select2",
+    "category": "forms"
+  },
+  {
+    "name": "ng-select2-component",
+    "category": "forms"
+  },
+  {
+    "name": "ng-sidebar",
+    "category": "ui"
+  },
+  {
+    "name": "ng-sidebarjs",
+    "category": "ui"
+  },
+  {
+    "name": "ng-speed-test",
+    "category": "testing"
+  },
+  {
+    "name": "@ng-stack/contenteditable",
+    "category": "forms"
+  },
+  {
+    "name": "@ng-stack/forms",
+    "category": "forms"
+  },
+  {
+    "name": "ng-svg-icon-sprite",
+    "category": "content"
+  },
+  {
+    "name": "ng-table-virtual-scroll",
+    "category": "ui"
+  },
+  {
+    "name": "ng-terminal",
+    "category": "ui"
+  },
+  {
+    "name": "ng-time-past-pipe",
+    "category": "utilities"
+  },
+  {
+    "name": "ng-toggle-button",
+    "category": "ui"
+  },
+  {
+    "name": "ng-validate-equal",
+    "category": "forms"
+  },
+  {
+    "name": "@ng-web-apis/audio",
+    "category": "utilities"
+  },
+  {
+    "name": "@ng-web-apis/canvas",
+    "category": "utilities"
+  },
+  {
+    "name": "@ng-web-apis/common",
+    "category": "utilities"
+  },
+  {
+    "name": "@ng-web-apis/geolocation",
+    "category": "utilities"
+  },
+  {
+    "name": "@ng-web-apis/intersection-observer",
+    "category": "utilities"
+  },
+  {
+    "name": "@ng-web-apis/midi",
+    "category": "utilities"
+  },
+  {
+    "name": "@ng-web-apis/mutation-observer",
+    "category": "utilities"
+  },
+  {
+    "name": "@ng-web-apis/payment-request",
+    "category": "utilities"
+  },
+  {
+    "name": "@ng-web-apis/permissions",
+    "category": "auth"
+  },
+  {
+    "name": "@ng-web-apis/resize-observer",
+    "category": "utilities"
+  },
+  {
+    "name": "@ng-web-apis/storage",
+    "category": "data"
+  },
+  {
+    "name": "@ng-web-apis/universal",
+    "category": "tooling"
+  },
+  {
+    "name": "@ng-web-apis/workers",
+    "category": "utilities"
+  },
+  {
+    "name": "ng-whiteboard",
+    "category": "content"
+  },
+  {
+    "name": "ng-wizard",
+    "category": "ui"
+  },
+  {
+    "name": "ng-yandex-metrika",
+    "category": "tooling"
+  },
+  {
+    "name": "ng-zorro-antd",
+    "category": "ui"
+  },
+  {
+    "name": "ng-zorro-antd-mobile",
+    "category": "ui"
+  },
+  {
+    "name": "ng2-adsense",
+    "category": "data"
+  },
+  {
+    "name": "ng2-adsk-forge-viewer",
+    "category": "content"
+  },
+  {
+    "name": "ng2-canvas-whiteboard",
+    "category": "content"
+  },
+  {
+    "name": "ng2-charts",
+    "category": "charts"
+  },
+  {
+    "name": "ng2-ckeditor",
+    "category": "forms"
+  },
+  {
+    "name": "ng2-completer",
+    "category": "ui"
+  },
+  {
+    "name": "ng2-currency-mask",
+    "category": "forms"
+  },
+  {
+    "name": "ng2-date-picker",
+    "category": "forms"
+  },
+  {
+    "name": "ng2-dragula",
+    "category": "ui"
+  },
+  {
+    "name": "ng2-events",
+    "category": "other"
+  },
+  {
+    "name": "ng2-fittext",
+    "category": "ui"
+  },
+  {
+    "name": "ng2-konva",
+    "category": "content"
+  },
+  {
+    "name": "ng2-pdf-viewer",
+    "category": "content"
+  },
+  {
+    "name": "ng2-pdfjs-viewer",
+    "category": "content"
+  },
+  {
+    "name": "ng2-pica",
+    "category": "other"
+  },
+  {
+    "name": "ng2-tooltip-directive",
+    "category": "ui"
+  },
+  {
+    "name": "ng6-file-man",
+    "category": "forms"
+  },
+  {
+    "name": "@ngbracket/ngx-layout",
+    "category": "ui"
+  },
+  {
+    "name": "ngforage",
+    "category": "data"
+  },
+  {
+    "name": "@ngneat/bind-query-params",
+    "category": "data"
+  },
+  {
+    "name": "@ngneat/cashew",
+    "category": "data"
+  },
+  {
+    "name": "@ngneat/dag",
+    "category": "other"
+  },
+  {
+    "name": "@ngneat/dialog",
+    "category": "ui"
+  },
+  {
+    "name": "@ngneat/edit-in-place",
+    "category": "other"
+  },
+  {
+    "name": "@ngneat/error-tailor",
+    "category": "forms"
+  },
+  {
+    "name": "@ngneat/helipopper",
+    "category": "ui"
+  },
+  {
+    "name": "@ngneat/reactive-forms",
+    "category": "forms"
+  },
+  {
+    "name": "@ngneat/spectator",
+    "category": "testing"
+  },
+  {
+    "name": "@ngneat/svg-icon",
+    "category": "content"
+  },
+  {
+    "name": "@ngneat/transloco",
+    "category": "i18n"
+  },
+  {
+    "name": "@ngneat/transloco-locale",
+    "category": "i18n"
+  },
+  {
+    "name": "@ngneat/transloco-messageformat",
+    "category": "i18n"
+  },
+  {
+    "name": "@ngneat/transloco-persist-lang",
+    "category": "i18n"
+  },
+  {
+    "name": "@ngneat/transloco-persist-translations",
+    "category": "i18n"
+  },
+  {
+    "name": "@ngneat/transloco-preload-langs",
+    "category": "i18n"
+  },
+  {
+    "name": "@ngneat/until-destroy",
+    "category": "utilities"
+  },
+  {
+    "name": "ngp-image-picker",
+    "category": "forms"
+  },
+  {
+    "name": "ngrx-clean-forms",
+    "category": "state"
+  },
+  {
+    "name": "ngrx-forms",
+    "category": "state"
+  },
+  {
+    "name": "ngrx-rtk-query",
+    "category": "state"
+  },
+  {
+    "name": "ngrx-slice",
+    "category": "state"
+  },
+  {
+    "name": "ngrx-wieder",
+    "category": "state"
+  },
+  {
+    "name": "@ngrx/component",
+    "category": "state"
+  },
+  {
+    "name": "@ngrx/component-store",
+    "category": "state"
+  },
+  {
+    "name": "@ngrx/data",
+    "category": "state"
+  },
+  {
+    "name": "@ngrx/effects",
+    "category": "state"
+  },
+  {
+    "name": "@ngrx/entity",
+    "category": "state"
+  },
+  {
+    "name": "@ngrx/router-store",
+    "category": "state"
+  },
+  {
+    "name": "@ngrx/signals",
+    "category": "state"
+  },
+  {
+    "name": "@ngrx/store",
+    "category": "state"
+  },
+  {
+    "name": "@ngrx/store-devtools",
+    "category": "state"
+  },
+  {
+    "name": "@ngspot/ngx-errors",
+    "category": "forms"
+  },
+  {
+    "name": "@ngspot/ngx-errors-material",
+    "category": "forms"
+  },
+  {
+    "name": "@ngspot/route-path-builder",
+    "category": "tooling"
+  },
+  {
+    "name": "@ngstack/code-editor",
+    "category": "forms"
+  },
+  {
+    "name": "@ngstack/translate",
+    "category": "i18n"
+  },
+  {
+    "name": "@ngu/carousel",
+    "category": "ui"
+  },
+  {
+    "name": "@ngui/auto-complete",
+    "category": "ui"
+  },
+  {
+    "name": "@ngui/common",
+    "category": "utilities"
+  },
+  {
+    "name": "@nguniversal/express-engine",
+    "category": "tooling"
+  },
+  {
+    "name": "@ngworker/lumberjack",
+    "category": "tooling"
+  },
+  {
+    "name": "@ngworker/router-component-store",
+    "category": "state"
+  },
+  {
+    "name": "ngx-amap",
+    "category": "content"
+  },
+  {
+    "name": "ngx-annotate-text",
+    "category": "content"
+  },
+  {
+    "name": "ngx-audio-player",
+    "category": "content"
+  },
+  {
+    "name": "ngx-auth",
+    "category": "auth"
+  },
+  {
+    "name": "ngx-auth-firebaseui",
+    "category": "auth"
+  },
+  {
+    "name": "ngx-autosize",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-autosize-input",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-avatar",
+    "category": "content"
+  },
+  {
+    "name": "ngx-avatars",
+    "category": "content"
+  },
+  {
+    "name": "ngx-awesome-uploader",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-bar-rating",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-bootstrap",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-bootstrap-datetime-popup",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-bootstrap-icons",
+    "category": "content"
+  },
+  {
+    "name": "ngx-bootstrap-multiselect",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-bootstrap-navbar",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-bootstrap-slider",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-bottom-nav",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-ckeditor",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-clarity",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-cleave-directive",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-clipboard",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-codejar",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-color",
+    "category": "other"
+  },
+  {
+    "name": "ngx-color-picker",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-colors",
+    "category": "other"
+  },
+  {
+    "name": "ngx-connection-service",
+    "category": "data"
+  },
+  {
+    "name": "ngx-context",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-cookie",
+    "category": "data"
+  },
+  {
+    "name": "ngx-cookie-backend",
+    "category": "data"
+  },
+  {
+    "name": "ngx-cookie-service",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-cookie-service-ssr",
+    "category": "data"
+  },
+  {
+    "name": "ngx-cookieconsent",
+    "category": "auth"
+  },
+  {
+    "name": "ngx-copy-to-clipboard",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-countup",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-currency",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-custom-validators",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-cut",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-date-fns",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-datetime-range-picker",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-device-detector",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-echarts",
+    "category": "charts"
+  },
+  {
+    "name": "ngx-editor",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-electronyzer",
+    "category": "tooling"
+  },
+  {
+    "name": "@ngx-env/builder",
+    "category": "tooling"
+  },
+  {
+    "name": "@ngx-env/core",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-extended-pdf-viewer",
+    "category": "content"
+  },
+  {
+    "name": "@ngx-file-upload/core",
+    "category": "forms"
+  },
+  {
+    "name": "@ngx-file-upload/ui",
+    "category": "forms"
+  },
+  {
+    "name": "@ngx-flagr/core",
+    "category": "utilities"
+  },
+  {
+    "name": "@ngx-formly/core",
+    "category": "forms"
+  },
+  {
+    "name": "@ngx-formly/material",
+    "category": "forms"
+  },
+  {
+    "name": "@ngx-gallery/core",
+    "category": "content"
+  },
+  {
+    "name": "@ngx-gallery/gallerize",
+    "category": "content"
+  },
+  {
+    "name": "@ngx-gallery/lightbox",
+    "category": "content"
+  },
+  {
+    "name": "ngx-gauge",
+    "category": "charts"
+  },
+  {
+    "name": "ngx-google-maps-places-api",
+    "category": "content"
+  },
+  {
+    "name": "@ngx-grpc/core",
+    "category": "data"
+  },
+  {
+    "name": "ngx-image-cropper",
+    "category": "content"
+  },
+  {
+    "name": "ngx-infinite-scroll",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-intl-tel-input",
+    "category": "i18n"
+  },
+  {
+    "name": "ngx-jdenticon",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-jest-snapshot-serializer",
+    "category": "testing"
+  },
+  {
+    "name": "ngx-joyride",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-joystick",
+    "category": "other"
+  },
+  {
+    "name": "ngx-json-viewer",
+    "category": "content"
+  },
+  {
+    "name": "ngx-jsonapi",
+    "category": "data"
+  },
+  {
+    "name": "ngx-keyboard-shortcuts",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-kjua",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-library-assets",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-linky",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-loader-indicator",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-loaders-css",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-loading",
+    "category": "ui"
+  },
+  {
+    "name": "@ngx-loading-bar/core",
+    "category": "ui"
+  },
+  {
+    "name": "@ngx-loading-bar/http",
+    "category": "data"
+  },
+  {
+    "name": "@ngx-loading-bar/router",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-localstorage",
+    "category": "data"
+  },
+  {
+    "name": "ngx-logger",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-long-press2",
+    "category": "other"
+  },
+  {
+    "name": "ngx-lottie",
+    "category": "content"
+  },
+  {
+    "name": "ngx-mailto",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-mapbox-gl",
+    "category": "content"
+  },
+  {
+    "name": "ngx-markdown",
+    "category": "content"
+  },
+  {
+    "name": "ngx-markdown-editor",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-mask",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-masonry",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-mat-datefns-date-adapter",
+    "category": "other"
+  },
+  {
+    "name": "ngx-mat-errors",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-mat-intl-tel-input",
+    "category": "i18n"
+  },
+  {
+    "name": "ngx-mat-select",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-mat-select-search",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-material-file-input",
+    "category": "forms"
+  },
+  {
+    "name": "@ngx-matomo/router",
+    "category": "tooling"
+  },
+  {
+    "name": "@ngx-matomo/tracker",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-md",
+    "category": "content"
+  },
+  {
+    "name": "ngx-mfe",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-moment",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-monaco-editor",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-monaco-tree",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-mqtt",
+    "category": "data"
+  },
+  {
+    "name": "ngx-multiple-dates",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-number-format",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-numeric-range-form-field",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-observe",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-oneforall",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-operators",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-order-pipe",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-owl-carousel-o",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-pagination",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-pagination-data-source",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-paypal",
+    "category": "data"
+  },
+  {
+    "name": "ngx-pendo",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-permissions",
+    "category": "auth"
+  },
+  {
+    "name": "ngx-pinch-zoom",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-pipes",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-pixel",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-plyr",
+    "category": "content"
+  },
+  {
+    "name": "ngx-powerbi",
+    "category": "data"
+  },
+  {
+    "name": "ngx-pretty-checkbox",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-print",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-print-element",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-printer",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-progressbar",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-progressive-image-loader",
+    "category": "content"
+  },
+  {
+    "name": "ngx-pug-builders",
+    "category": "tooling"
+  },
+  {
+    "name": "@ngx-pwa/local-storage",
+    "category": "data"
+  },
+  {
+    "name": "ngx-qrcode-styling",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-qrcode-svg",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-quill",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-range",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-remotedata",
+    "category": "data"
+  },
+  {
+    "name": "ngx-rxjs-zone-scheduler",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-schema-form",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-scroll-lock",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-scrollbar",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-scrolltop",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-segment-analytics",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-select-dropdown",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-select-ex",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-selecto",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-seo",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-sharebuttons",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-show-hide-password",
+    "category": "other"
+  },
+  {
+    "name": "ngx-showdown",
+    "category": "content"
+  },
+  {
+    "name": "ngx-simple-countdown",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-skeleton",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-skeleton-loader",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-skltn",
+    "category": "other"
+  },
+  {
+    "name": "ngx-slick-carousel",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-smart-modal",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-socket-io",
+    "category": "data"
+  },
+  {
+    "name": "ngx-sortable",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-sortablejs",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-speculoos",
+    "category": "testing"
+  },
+  {
+    "name": "ngx-spinner",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-sse-client",
+    "category": "data"
+  },
+  {
+    "name": "@ngx-ssr/cache",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-ssrs-reportviewer",
+    "category": "content"
+  },
+  {
+    "name": "ngx-star-rating",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-store",
+    "category": "state"
+  },
+  {
+    "name": "ngx-stripe",
+    "category": "data"
+  },
+  {
+    "name": "ngx-sub-form",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-suspense-of",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-tethys",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-timeago",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-timeline-albe",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-tippy-wrapper",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-toast-notifications",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-toasta",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-toastr",
+    "category": "ui"
+  },
+  {
+    "name": "@ngx-toolkit/device",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-translate-cache",
+    "category": "i18n"
+  },
+  {
+    "name": "ngx-translate-cut",
+    "category": "i18n"
+  },
+  {
+    "name": "ngx-translate-messageformat-compiler",
+    "category": "i18n"
+  },
+  {
+    "name": "ngx-translate-router",
+    "category": "i18n"
+  },
+  {
+    "name": "ngx-translate-testing",
+    "category": "testing"
+  },
+  {
+    "name": "@ngx-translate/core",
+    "category": "i18n"
+  },
+  {
+    "name": "@ngx-translate/http-loader",
+    "category": "i18n"
+  },
+  {
+    "name": "@ngx-translate/i18n-polyfill",
+    "category": "i18n"
+  },
+  {
+    "name": "ngx-transloco-markup",
+    "category": "i18n"
+  },
+  {
+    "name": "ngx-transloco-markup-router-link",
+    "category": "i18n"
+  },
+  {
+    "name": "ngx-treeview",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-trend",
+    "category": "charts"
+  },
+  {
+    "name": "ngx-trim-directive",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-typed-writer",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-ui-tour-console",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-ui-tour-core",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-ui-tour-md-menu",
+    "category": "content"
+  },
+  {
+    "name": "ngx-ui-tour-ng-bootstrap",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-ui-tour-ngx-bootstrap",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-ui-tour-tui-dropdown",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-ui-tour-tui-hint",
+    "category": "ui"
+  },
+  {
+    "name": "ngx-universal-cookies",
+    "category": "data"
+  },
+  {
+    "name": "ngx-uploadx",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-valdemort",
+    "category": "other"
+  },
+  {
+    "name": "ngx-version-check",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-watermark",
+    "category": "utilities"
+  },
+  {
+    "name": "ngx-webstorage",
+    "category": "data"
+  },
+  {
+    "name": "ngx-webstorage-service",
+    "category": "data"
+  },
+  {
+    "name": "ngx-wig",
+    "category": "forms"
+  },
+  {
+    "name": "ngx-window-token",
+    "category": "tooling"
+  },
+  {
+    "name": "ngx-wow",
+    "category": "other"
+  },
+  {
+    "name": "ngx-x-browser-svg-mask",
+    "category": "forms"
+  },
+  {
+    "name": "@ngxd/core",
+    "category": "other"
+  },
+  {
+    "name": "ngxf-uploader",
+    "category": "forms"
+  },
+  {
+    "name": "@ngxpert/hot-toast",
+    "category": "ui"
+  },
+  {
+    "name": "@ngxpert/input-otp",
+    "category": "forms"
+  },
+  {
+    "name": "@ngxs/devtools-plugin",
+    "category": "state"
+  },
+  {
+    "name": "@ngxs/form-plugin",
+    "category": "state"
+  },
+  {
+    "name": "@ngxs/hmr-plugin",
+    "category": "state"
+  },
+  {
+    "name": "@ngxs/logger-plugin",
+    "category": "state"
+  },
+  {
+    "name": "@ngxs/router-plugin",
+    "category": "state"
+  },
+  {
+    "name": "@ngxs/storage-plugin",
+    "category": "state"
+  },
+  {
+    "name": "@ngxs/store",
+    "category": "state"
+  },
+  {
+    "name": "@ngxs/websocket-plugin",
+    "category": "state"
+  },
+  {
+    "name": "ngxsmk-datepicker",
+    "category": "state"
+  },
+  {
+    "name": "ngxsmk-gatekeeper",
+    "category": "state"
+  },
+  {
+    "name": "ngxsmk-tel-input",
+    "category": "state"
+  },
+  {
+    "name": "ngxtension",
+    "category": "utilities"
+  },
+  {
+    "name": "@nicky-lenaers/ngx-scroll-to",
+    "category": "ui"
+  },
+  {
+    "name": "@nomadreservations/ngx-codemirror",
+    "category": "forms"
+  },
+  {
+    "name": "@nth-cloud/ng-mentions",
+    "category": "ui"
+  },
+  {
+    "name": "@nth-cloud/ng-toggle",
+    "category": "ui"
+  },
+  {
+    "name": "@nx/angular",
+    "category": "tooling"
+  },
+  {
+    "name": "nxt-flags",
+    "category": "content"
+  },
+  {
+    "name": "nxt-sortablejs",
+    "category": "ui"
+  },
+  {
+    "name": "@oasisdigital/angular-typed-forms-helpers",
+    "category": "forms"
+  },
+  {
+    "name": "onesignal-ngx",
+    "category": "data"
+  },
+  {
+    "name": "@optimajet/workflow-designer-angular",
+    "category": "ui"
+  },
+  {
+    "name": "@orchestrator/core",
+    "category": "other"
+  },
+  {
+    "name": "@orchestrator/layout",
+    "category": "ui"
+  },
+  {
+    "name": "@orchestrator/ngx-testing",
+    "category": "testing"
+  },
+  {
+    "name": "@pascalhonegger/ng-datatable",
+    "category": "ui"
+  },
+  {
+    "name": "@pebula/ngrid",
+    "category": "ui"
+  },
+  {
+    "name": "@perfectmemory/ngx-contextmenu",
+    "category": "utilities"
+  },
+  {
+    "name": "@piumaz/pull-to-refresh",
+    "category": "other"
+  },
+  {
+    "name": "@placeme/ngx-geo-api-gouv-address",
+    "category": "content"
+  },
+  {
+    "name": "@porscheinformatik/clr-addons",
+    "category": "forms"
+  },
+  {
+    "name": "@porscheinformatik/material-addons",
+    "category": "forms"
+  },
+  {
+    "name": "primeng",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-buttons",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-charts",
+    "category": "charts"
+  },
+  {
+    "name": "@progress/kendo-angular-common",
+    "category": "utilities"
+  },
+  {
+    "name": "@progress/kendo-angular-dropdowns",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-editor",
+    "category": "forms"
+  },
+  {
+    "name": "@progress/kendo-angular-excel-export",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-icons",
+    "category": "content"
+  },
+  {
+    "name": "@progress/kendo-angular-indicators",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-inputs",
+    "category": "forms"
+  },
+  {
+    "name": "@progress/kendo-angular-intl",
+    "category": "i18n"
+  },
+  {
+    "name": "@progress/kendo-angular-l10n",
+    "category": "i18n"
+  },
+  {
+    "name": "@progress/kendo-angular-label",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-menu",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-notification",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-pager",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-pdf-export",
+    "category": "content"
+  },
+  {
+    "name": "@progress/kendo-angular-popup",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-progressbar",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-toolbar",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-tooltip",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-treeview",
+    "category": "ui"
+  },
+  {
+    "name": "@progress/kendo-angular-upload",
+    "category": "forms"
+  },
+  {
+    "name": "@project-sunbird/common-consumption",
+    "category": "utilities"
+  },
+  {
+    "name": "@ptsecurity/mosaic",
+    "category": "ui"
+  },
+  {
+    "name": "@rero/ng-core",
+    "category": "other"
+  },
+  {
+    "name": "@rinminase/ng-charts",
+    "category": "charts"
+  },
+  {
+    "name": "runtime-config-loader",
+    "category": "tooling"
+  },
+  {
+    "name": "@rx-angular/state",
+    "category": "state"
+  },
+  {
+    "name": "@rx-angular/template",
+    "category": "state"
+  },
+  {
+    "name": "@rx-mind/entity-component-store",
+    "category": "state"
+  },
+  {
+    "name": "safe-pipe",
+    "category": "utilities"
+  },
+  {
+    "name": "@sbzen/ng-cron",
+    "category": "forms"
+  },
+  {
+    "name": "@scullyio/ng-lib",
+    "category": "other"
+  },
+  {
+    "name": "@seatsio/seatsio-angular",
+    "category": "other"
+  },
+  {
+    "name": "@sentry/angular",
+    "category": "tooling"
+  },
+  {
+    "name": "@service-work/is-loading",
+    "category": "utilities"
+  },
+  {
+    "name": "@service-work/scroll-position",
+    "category": "utilities"
+  },
+  {
+    "name": "session-expiration-alert",
+    "category": "other"
+  },
+  {
+    "name": "shallow-render",
+    "category": "testing"
+  },
+  {
+    "name": "@ship-ui/core",
+    "category": "ui"
+  },
+  {
+    "name": "simplebar-angular",
+    "category": "other"
+  },
+  {
+    "name": "single-spa-angular",
+    "category": "tooling"
+  },
+  {
+    "name": "@snowfrog/ngx-unleash-proxy-client",
+    "category": "utilities"
+  },
+  {
+    "name": "@solace-community/angular-solace-message-client",
+    "category": "other"
+  },
+  {
+    "name": "@spartacus/core",
+    "category": "other"
+  },
+  {
+    "name": "@spartacus/storefront",
+    "category": "other"
+  },
+  {
+    "name": "storybook-addon-angular-router",
+    "category": "testing"
+  },
+  {
+    "name": "@storybook/angular",
+    "category": "tooling"
+  },
+  {
+    "name": "@swimlane/ngx-charts",
+    "category": "charts"
+  },
+  {
+    "name": "@swimlane/ngx-dnd",
+    "category": "ui"
+  },
+  {
+    "name": "@swimlane/ngx-graph",
+    "category": "charts"
+  },
+  {
+    "name": "@swimlane/ngx-ui",
+    "category": "ui"
+  },
+  {
+    "name": "systelab-components",
+    "category": "ui"
+  },
+  {
+    "name": "@tabuckner/material-dayjs-adapter",
+    "category": "ui"
+  },
+  {
+    "name": "@taiga-ui/addon-charts",
+    "category": "charts"
+  },
+  {
+    "name": "@taiga-ui/addon-commerce",
+    "category": "ui"
+  },
+  {
+    "name": "@taiga-ui/addon-doc",
+    "category": "ui"
+  },
+  {
+    "name": "@taiga-ui/addon-editor",
+    "category": "forms"
+  },
+  {
+    "name": "@taiga-ui/addon-mobile",
+    "category": "ui"
+  },
+  {
+    "name": "@taiga-ui/addon-preview",
+    "category": "ui"
+  },
+  {
+    "name": "@taiga-ui/addon-table",
+    "category": "ui"
+  },
+  {
+    "name": "@taiga-ui/addon-tablebars",
+    "category": "ui"
+  },
+  {
+    "name": "@taiga-ui/cdk",
+    "category": "ui"
+  },
+  {
+    "name": "@taiga-ui/core",
+    "category": "ui"
+  },
+  {
+    "name": "@taiga-ui/i18n",
+    "category": "i18n"
+  },
+  {
+    "name": "@taiga-ui/kit",
+    "category": "ui"
+  },
+  {
+    "name": "@tanstack/angular-query-experimental",
+    "category": "data"
+  },
+  {
+    "name": "@testing-library/angular",
+    "category": "testing"
+  },
+  {
+    "name": "@thisissoon/angular-scrollspy",
+    "category": "ui"
+  },
+  {
+    "name": "@tinkoff/ng-dompurify",
+    "category": "tooling"
+  },
+  {
+    "name": "@tinkoff/ng-event-plugins",
+    "category": "tooling"
+  },
+  {
+    "name": "@tinkoff/ng-polymorpheus",
+    "category": "utilities"
+  },
+  {
+    "name": "@trademe/ng-defer-load",
+    "category": "other"
+  },
+  {
+    "name": "tree-ngx",
+    "category": "ui"
+  },
+  {
+    "name": "@twogate/ngx-photo-gallery",
+    "category": "content"
+  },
+  {
+    "name": "@uiowa/digit-only",
+    "category": "forms"
+  },
+  {
+    "name": "@ux-aspects/ux-aspects",
+    "category": "ui"
+  },
+  {
+    "name": "@vime/angular",
+    "category": "content"
+  },
+  {
+    "name": "wacom",
+    "category": "other"
+  },
+  {
+    "name": "web-backend-api",
+    "category": "other"
+  },
+  {
+    "name": "webc-miam",
+    "category": "other"
+  },
+  {
+    "name": "@wizishop/ng-wizi-bulma",
+    "category": "other"
+  },
+  {
+    "name": "@wizishop/wizi-block",
+    "category": "other"
+  },
+  {
+    "name": "@wkoza/ngx-upload",
+    "category": "forms"
+  },
+  {
+    "name": "xng-breadcrumb",
+    "category": "utilities"
+  },
+  {
+    "name": "zingchart-angular",
+    "category": "charts"
+  }
+]

@@ -1,0 +1,71 @@
+/* Events map ----------------------------------------------------------------------------------- */
+
+/* Land: a pattern of separate pixels; markers: primary squares with a hard sprite shadow. */
+.hub-map-land {
+  fill: var(--p-surface-300);
+}
+.hub-map-marker {
+  cursor: pointer;
+  outline: none;
+}
+.hub-map-marker-body {
+  fill: var(--p-primary-color);
+  stroke: var(--p-surface-0);
+  stroke-width: 0.25;
+  transition: fill 0.15s;
+}
+.hub-map-marker-shadow {
+  fill: color-mix(in srgb, var(--p-primary-color) 35%, transparent);
+}
+.hub-map-marker-count {
+  font-family: var(--font-brand);
+  fill: var(--p-primary-contrast-color);
+  pointer-events: none;
+}
+.hub-map-marker:hover .hub-map-marker-body,
+.hub-map-marker.is-selected .hub-map-marker-body {
+  fill: #0b6bc4;
+}
+.hub-map-marker:focus-visible .hub-map-marker-body {
+  stroke: var(--p-text-color);
+  stroke-width: 0.6;
+}
+.hub-map-marker.is-selected .hub-map-marker-body {
+  stroke: var(--p-text-color);
+  stroke-width: 0.4;
+}
+
+/* The small date block in the city's event list. */
+.hub-map-date {
+  flex-shrink: 0;
+  width: 2.75rem;
+  padding-bottom: 0.15rem;
+  text-align: center;
+  font: 1.5rem/1 var(--font-brand);
+  background: var(--p-surface-100);
+}
+.hub-map-date > span {
+  display: block;
+  margin-bottom: 0.2rem;
+  padding: 0.15rem 0;
+  font: 600 0.65rem/1 var(--font-sans, inherit);
+  letter-spacing: 0.08em;
+  color: var(--p-primary-contrast-color);
+  background: var(--p-primary-color);
+}
+
+.hub-dark {
+  .hub-map-land {
+    fill: var(--p-surface-700);
+  }
+  .hub-map-marker-body {
+    stroke: var(--p-surface-950);
+  }
+  .hub-map-marker:hover .hub-map-marker-body,
+  .hub-map-marker.is-selected .hub-map-marker-body {
+    fill: #3fa4fb;
+  }
+  .hub-map-date {
+    background: var(--p-surface-800);
+  }
+}
