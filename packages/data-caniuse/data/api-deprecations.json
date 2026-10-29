@@ -1,0 +1,2546 @@
+[
+  {
+    "name": "animate",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "animateChild",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimateChildOptions",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimateTimings",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "animation",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationAnimateChildMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationAnimateMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationAnimateRefMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationBuilder",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationFactory",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationGroupMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationKeyframesSequenceMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationMetadataType",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationOptions",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationPlayer",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationQueryMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationQueryOptions",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationReferenceMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationSequenceMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationStaggerMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationStateMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationStyleMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationTransitionMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationTriggerMetadata",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AUTO_STYLE",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "group",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "keyframes",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "NoopAnimationPlayer",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "query",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "sequence",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "stagger",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "state",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "style",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "transition",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "trigger",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "useAnimation",
+    "package": "@angular/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AnimationDriver",
+    "package": "@angular/animations/browser",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "NoopAnimationDriver",
+    "package": "@angular/animations/browser",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": null },
+      { "version": 15, "status": null },
+      { "version": 16, "status": null },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "MockAnimationDriver",
+    "package": "@angular/animations/browser/testing",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "MockAnimationPlayer",
+    "package": "@angular/animations/browser/testing",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "DATE_PIPE_DEFAULT_TIMEZONE",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "FormatWidth",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "FormStyle",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getCurrencySymbol",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleCurrencyCode",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleCurrencyName",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleCurrencySymbol",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleDateFormat",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleDateTimeFormat",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleDayNames",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleDayPeriods",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleDirection",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleEraNames",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleExtraDayPeriodRules",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleExtraDayPeriods",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleFirstDayOfWeek",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleId",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleMonthNames",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleNumberFormat",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleNumberSymbol",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocalePluralCase",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleTimeFormat",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getLocaleWeekEndRange",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getNumberOfCurrencyDigits",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "isPlatformWorkerApp",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "isPlatformWorkerUi",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "NgForOfContext",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "NgIf",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "NgIfContext",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "NgOptimizedImageModule",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13.4, "status": "deprecated" },
+      { "version": 14, "status": "removed" },
+      { "version": 15, "status": "removed" },
+      { "version": 16, "status": "removed" },
+      { "version": 17, "status": "removed" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "NgSwitch",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "NgSwitchCase",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "NgSwitchDefault",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "NumberFormatStyle",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "Plural",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "Time",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "TranslationWidth",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "WeekDay",
+    "package": "@angular/common",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "HttpClientJsonpModule",
+    "package": "@angular/common/http",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "HttpClientModule",
+    "package": "@angular/common/http",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "HttpClientXsrfModule",
+    "package": "@angular/common/http",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "JsonpClientBackend",
+    "package": "@angular/common/http",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "stable" },
+      { "version": 21, "status": "stable" },
+      { "version": 22.1, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "JsonpInterceptor",
+    "package": "@angular/common/http",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "stable" },
+      { "version": 21, "status": "stable" },
+      { "version": 22.1, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "withFetch",
+    "package": "@angular/common/http",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": null },
+      { "version": 15, "status": null },
+      { "version": 16.1, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "stable" },
+      { "version": 21, "status": "stable" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "withJsonpSupport",
+    "package": "@angular/common/http",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": null },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "stable" },
+      { "version": 21, "status": "stable" },
+      { "version": 22.1, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "XhrFactory",
+    "package": "@angular/common/http",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "removed" },
+      { "version": 17, "status": "removed" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "HttpClientTestingModule",
+    "package": "@angular/common/http/testing",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "AfterRenderPhase",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": null },
+      { "version": 15, "status": null },
+      { "version": 16, "status": null },
+      { "version": 17, "status": "stable" },
+      { "version": 18.1, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "ANALYZE_FOR_ENTRY_COMPONENTS",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "removed" },
+      { "version": 17, "status": "removed" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "APP_INITIALIZER",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "BootstrapOptions",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14.1, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "Compiler",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "CompilerFactory",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "ComponentFactory",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13.2, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "ComponentFactoryResolver",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13.2, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "createNgModuleRef",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14.1, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "DefaultIterableDiffer",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "defineInjectable",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "ENVIRONMENT_INITIALIZER",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "getModuleFactory",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "ImportedNgModuleProviders",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "InjectFlags",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14.1, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "ModuleWithComponentFactories",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "NgModuleFactory",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "NgProbeToken",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "PACKAGE_ROOT_URL",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16.2, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "PLATFORM_INITIALIZER",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "ReflectiveInjector",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "removed" },
+      { "version": 17, "status": "removed" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "ReflectiveKey",
+    "package": "@angular/core",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "removed" },
+      { "version": 17, "status": "removed" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "async",
+    "package": "@angular/core/testing",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "WithField",
+    "package": "@angular/forms/signals",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": null },
+      { "version": 15, "status": null },
+      { "version": 16, "status": null },
+      { "version": 17, "status": null },
+      { "version": 18, "status": null },
+      { "version": 19, "status": null },
+      { "version": 20, "status": null },
+      { "version": 21.2, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "WithOptionalField",
+    "package": "@angular/forms/signals",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": null },
+      { "version": 15, "status": null },
+      { "version": 16, "status": null },
+      { "version": 17, "status": null },
+      { "version": 18, "status": null },
+      { "version": 19, "status": null },
+      { "version": 20, "status": null },
+      { "version": 21.2, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "WithoutField",
+    "package": "@angular/forms/signals",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": null },
+      { "version": 15, "status": null },
+      { "version": 16, "status": null },
+      { "version": 17, "status": null },
+      { "version": 18, "status": null },
+      { "version": 19, "status": null },
+      { "version": 20, "status": null },
+      { "version": 21.2, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "ApplicationConfig",
+    "package": "@angular/platform-browser",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "BrowserTransferStateModule",
+    "package": "@angular/platform-browser",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14.2, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "removed" },
+      { "version": 17, "status": "removed" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "HAMMER_GESTURE_CONFIG",
+    "package": "@angular/platform-browser",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "HAMMER_LOADER",
+    "package": "@angular/platform-browser",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "HammerGestureConfig",
+    "package": "@angular/platform-browser",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "HammerLoader",
+    "package": "@angular/platform-browser",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "HammerModule",
+    "package": "@angular/platform-browser",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "makeStateKey",
+    "package": "@angular/platform-browser",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "StateKey",
+    "package": "@angular/platform-browser",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "withIncrementalHydration",
+    "package": "@angular/platform-browser",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": null },
+      { "version": 15, "status": null },
+      { "version": 16, "status": null },
+      { "version": 17, "status": null },
+      { "version": 18, "status": null },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "stable" },
+      { "version": 21, "status": "stable" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "JitCompilerFactory",
+    "package": "@angular/platform-browser-dynamic",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "platformBrowserDynamic",
+    "package": "@angular/platform-browser-dynamic",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "RESOURCE_CACHE_PROVIDER",
+    "package": "@angular/platform-browser-dynamic",
+    "versions": [
+      { "version": 13.2, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "BrowserDynamicTestingModule",
+    "package": "@angular/platform-browser-dynamic/testing",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "platformBrowserDynamicTesting",
+    "package": "@angular/platform-browser-dynamic/testing",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "BrowserAnimationsModule",
+    "package": "@angular/platform-browser/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "BrowserAnimationsModuleConfig",
+    "package": "@angular/platform-browser/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "NoopAnimationsModule",
+    "package": "@angular/platform-browser/animations",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "provideAnimations",
+    "package": "@angular/platform-browser/animations",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14.1, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "provideNoopAnimations",
+    "package": "@angular/platform-browser/animations",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14.1, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "provideAnimationsAsync",
+    "package": "@angular/platform-browser/animations/async",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": null },
+      { "version": 15, "status": null },
+      { "version": 16, "status": null },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20.2, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "platformDynamicServer",
+    "package": "@angular/platform-server",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "renderModuleFactory",
+    "package": "@angular/platform-server",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "removed" },
+      { "version": 17, "status": "removed" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "ServerTransferStateModule",
+    "package": "@angular/platform-server",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14.2, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "platformServerTesting",
+    "package": "@angular/platform-server/testing",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "ServerTestingModule",
+    "package": "@angular/platform-server/testing",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17, "status": "stable" },
+      { "version": 18, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "CanActivate",
+    "package": "@angular/router",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15.2, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18.1, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "stable" },
+      { "version": 21, "status": "stable" },
+      { "version": 22, "status": "stable" }
+    ]
+  },
+  {
+    "name": "CanActivateChild",
+    "package": "@angular/router",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15.2, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18.1, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "stable" },
+      { "version": 21, "status": "stable" },
+      { "version": 22, "status": "stable" }
+    ]
+  },
+  {
+    "name": "CanDeactivate",
+    "package": "@angular/router",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15.2, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18.1, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "stable" },
+      { "version": 21, "status": "stable" },
+      { "version": 22, "status": "stable" }
+    ]
+  },
+  {
+    "name": "CanLoad",
+    "package": "@angular/router",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15.1, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "CanLoadFn",
+    "package": "@angular/router",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14.2, "status": "stable" },
+      { "version": 15.1, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "CanMatch",
+    "package": "@angular/router",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14.1, "status": "stable" },
+      { "version": 15.2, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18.1, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "stable" },
+      { "version": 21, "status": "stable" },
+      { "version": 22, "status": "stable" }
+    ]
+  },
+  {
+    "name": "DeprecatedGuard",
+    "package": "@angular/router",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": null },
+      { "version": 15.2, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "DeprecatedResolve",
+    "package": "@angular/router",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": null },
+      { "version": 15, "status": null },
+      { "version": 16, "status": null },
+      { "version": 17, "status": null },
+      { "version": 18, "status": null },
+      { "version": 19, "status": null },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "provideRoutes",
+    "package": "@angular/router",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "Resolve",
+    "package": "@angular/router",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15.2, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18.1, "status": "stable" },
+      { "version": 19, "status": "stable" },
+      { "version": 20, "status": "stable" },
+      { "version": 21, "status": "stable" },
+      { "version": 22, "status": "stable" }
+    ]
+  },
+  {
+    "name": "withExperimentalAutoCleanupInjectors",
+    "package": "@angular/router",
+    "versions": [
+      { "version": 13, "status": null },
+      { "version": 14, "status": null },
+      { "version": 15, "status": null },
+      { "version": 16, "status": null },
+      { "version": 17, "status": null },
+      { "version": 18, "status": null },
+      { "version": 19, "status": null },
+      { "version": 20, "status": null },
+      { "version": 21.1, "status": "stable" },
+      { "version": 22.2, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "RouterTestingModule",
+    "package": "@angular/router/testing",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15, "status": "stable" },
+      { "version": 16, "status": "stable" },
+      { "version": 17.3, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "deprecated" }
+    ]
+  },
+  {
+    "name": "setupTestingRouter",
+    "package": "@angular/router/testing",
+    "versions": [
+      { "version": 13, "status": "stable" },
+      { "version": 14, "status": "stable" },
+      { "version": 15.1, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "removed" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "UpdateActivatedEvent",
+    "package": "@angular/service-worker",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "removed" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "UpdateAvailableEvent",
+    "package": "@angular/service-worker",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "removed" },
+      { "version": 18, "status": "removed" },
+      { "version": 19, "status": "removed" },
+      { "version": 20, "status": "removed" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "UpgradeAdapter",
+    "package": "@angular/upgrade",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "UpgradeAdapterRef",
+    "package": "@angular/upgrade",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "removed" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "getAngularLib",
+    "package": "@angular/upgrade/static",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  },
+  {
+    "name": "setAngularLib",
+    "package": "@angular/upgrade/static",
+    "versions": [
+      { "version": 13, "status": "deprecated" },
+      { "version": 14, "status": "deprecated" },
+      { "version": 15, "status": "deprecated" },
+      { "version": 16, "status": "deprecated" },
+      { "version": 17, "status": "deprecated" },
+      { "version": 18, "status": "deprecated" },
+      { "version": 19, "status": "deprecated" },
+      { "version": 20, "status": "deprecated" },
+      { "version": 21, "status": "deprecated" },
+      { "version": 22, "status": "removed" }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "name": "router-last-successful-navigation",
+    "explanation": "The `lastSuccessfulNavigation`Router property is now a Signal and has to be invoked to get its value.",
+    "commitUrl": "https://github.com/geromegrignon/migration-router-last-successful-navigation/commit/4653a4fbf18a084f3990615a3fc2672d14917645#diff-18f0b78b713daf3f4fc2d305926785508575bdc7f304363a64a3b3a2985b58beR15",
+    "before": "constructor() {\n    if(this.router.lastSuccessfulNavigation) {\n      // ...\n    }\n  }\n",
+    "after": "constructor() {\n    if(this.router.lastSuccessfulNavigation()) {\n      // ...\n    }\n  }\n"
+  }
+]

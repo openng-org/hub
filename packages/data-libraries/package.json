@@ -1,0 +1,47 @@
+{
+  "name": "@openng/data-libraries",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Angular library health: the libraries the hub tracks, their versions per Angular major, vulnerabilities and popularity, and the health score computed from them.",
+  "homepage": "https://hub.openng.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openng-org/hub.git",
+    "directory": "packages/data-libraries"
+  },
+  "bugs": {
+    "url": "https://github.com/openng-org/hub/issues"
+  },
+  "license": "MIT AND CC-BY-4.0",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src",
+    "data"
+  ],
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run --no-fsModuleCache"
+  },
+  "dependencies": {
+    "@openng/core-angular-versions": "workspace:*",
+    "semver": "catalog:"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "@types/semver": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

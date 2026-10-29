@@ -1,0 +1,148 @@
+/* Pixel-art primitives ------------------------------------------------------------------------- */
+
+/*
+ * Stepped "pixel" corners, the shape of the logo's pixel art, written once and inlined at build
+ * time wherever a rule says `@apply hub-clip-pixel`. Not a custom property on :root: there
+ * var(--hub-px) would resolve on <html>, where it is unset, instead of on the clipped element (and
+ * every --hub-px override would stop working).
+ *
+ * Two --hub-px steps per corner: badge, box, corners, frame, buttons, menu icon. Each
+ * of them sets --hub-px (3, 4 or 6px) on itself or its parent.
+ */
+@utility hub-clip-pixel {
+  clip-path: polygon(
+    calc(var(--hub-px) * 2) 0,
+    calc(100% - var(--hub-px) * 2) 0,
+    calc(100% - var(--hub-px) * 2) var(--hub-px),
+    calc(100% - var(--hub-px)) var(--hub-px),
+    calc(100% - var(--hub-px)) calc(var(--hub-px) * 2),
+    100% calc(var(--hub-px) * 2),
+    100% calc(100% - var(--hub-px) * 2),
+    calc(100% - var(--hub-px)) calc(100% - var(--hub-px) * 2),
+    calc(100% - var(--hub-px)) calc(100% - var(--hub-px)),
+    calc(100% - var(--hub-px) * 2) calc(100% - var(--hub-px)),
+    calc(100% - var(--hub-px) * 2) 100%,
+    calc(var(--hub-px) * 2) 100%,
+    calc(var(--hub-px) * 2) calc(100% - var(--hub-px)),
+    var(--hub-px) calc(100% - var(--hub-px)),
+    var(--hub-px) calc(100% - var(--hub-px) * 2),
+    0 calc(100% - var(--hub-px) * 2),
+    0 calc(var(--hub-px) * 2),
+    var(--hub-px) calc(var(--hub-px) * 2),
+    var(--hub-px) var(--hub-px),
+    calc(var(--hub-px) * 2) var(--hub-px)
+  );
+}
+/* One fixed 3px notch per corner (chips, timeline markers): these elements do not set --hub-px. */
+@utility hub-clip-pixel-1 {
+  clip-path: polygon(
+    3px 0,
+    calc(100% - 3px) 0,
+    calc(100% - 3px) 3px,
+    100% 3px,
+    100% calc(100% - 3px),
+    calc(100% - 3px) calc(100% - 3px),
+    calc(100% - 3px) 100%,
+    3px 100%,
+    3px calc(100% - 3px),
+    0 calc(100% - 3px),
+    0 3px,
+    3px 3px
+  );
+}
+
+/*
+ * Page header: a pixel badge (the stepped corners of the logo's pixel art) next to a title set in
+ * the brand font. --hub-px is the size of one "pixel" of the badge outline.
+ */
+/* In the components layer so Tailwind utilities (size-*, hidden…) can override them. */
+@layer components {
+  .hub-pixel-badge {
+    --hub-px: 4px;
+    display: inline-grid;
+    place-items: center;
+    flex-shrink: 0;
+    /* Size with Tailwind (size-12, md:size-18…); the icon follows through container units. */
+    width: 4rem;
+    height: 4rem;
+    container-type: size;
+    /* Hard, unblurred offset shadow, like a sprite's: drop-shadow follows the clipped shape. */
+    filter: drop-shadow(var(--hub-px) var(--hub-px) 0 color-mix(in srgb, #bf25b9 35%, transparent));
+  }
+  .hub-pixel-badge > span {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 45cqw;
+    background: linear-gradient(135deg, #bf25b9, #836ae9 45%, #1690fa 75%, #00bee0);
+  }
+  /* The icon font sets its own size on .pi; follow the badge instead. */
+  .hub-pixel-badge > span > i {
+    font-size: inherit;
+  }
+  /* The stepped corners (hub-clip-pixel above), shared by the primitives and the buttons. */
+  .hub-pixel-badge > span,
+  .hub-pixel-box,
+  .hub-pixel-corners,
+  .hub-pixel-frame::before,
+  .hub-pixel-btn > span,
+  .hub-menu-icon {
+    @apply hub-clip-pixel;
+  }
+
+  /* Pixel box: a surface panel with the badge's stepped corners. */
+  .hub-pixel-box {
+    --hub-px: 4px;
+    display: block;
+    padding: 0.75rem 1rem;
+    /* surface-50, not 100: muted text needs it for 4.5:1. */
+    background: var(--p-surface-50);
+  }
+  .hub-dark {
+    .hub-pixel-box {
+      background: var(--p-surface-900);
+    }
+  }
+
+  /* Stepped corners on any element (status legend cards…); --hub-px sets the step. */
+  .hub-pixel-corners {
+    --hub-px: 3px;
+  }
+
+  /*
+   * A large panel (the Can I Use tabs, the home timeline, the events map) with
+   * stepped corners. The shape is drawn by a pseudo-element behind the content rather than clipping
+   * the element, so drawers, overlays and sticky headers inside it are never cut off.
+   */
+  .hub-pixel-frame {
+    --hub-px: 6px;
+    position: relative;
+    isolation: isolate;
+  }
+  .hub-pixel-frame::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: var(--p-surface-50);
+  }
+  .hub-pixel-frame .p-tablist,
+  .hub-pixel-frame .p-tabpanels {
+    background: transparent;
+  }
+  .hub-dark {
+    .hub-pixel-frame::before {
+      background: var(--p-surface-900);
+    }
+  }
+
+  .hub-page-title {
+    font-family: var(--font-brand);
+    font-weight: 400;
+    font-synthesis: none;
+    letter-spacing: 0.02em;
+    line-height: 1;
+  }
+}

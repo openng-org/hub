@@ -1,0 +1,254 @@
+/* Release timeline (home) ---------------------------------------------------------------------- */
+
+.hub-timeline {
+  --hub-tl-active: var(--p-primary-color);
+  --hub-tl-active-text: var(--p-primary-contrast-color);
+  --hub-tl-lts: #0e7490;
+  --hub-tl-lts-text: #fff;
+  --hub-tl-eol: var(--p-surface-400);
+  /* A major announced ahead of its release: outlined in the active colour, not filled. */
+  --hub-tl-upcoming: var(--p-surface-0);
+  --hub-tl-cell: 6px;
+}
+.hub-dark {
+  .hub-timeline,
+  .hub-timeline-chip {
+    --hub-tl-lts: #22d3ee;
+    --hub-tl-lts-text: var(--p-surface-950);
+    --hub-tl-eol: var(--p-surface-500);
+    --hub-tl-upcoming: var(--p-surface-950);
+  }
+}
+.hub-timeline-chip {
+  --hub-tl-active: var(--p-primary-color);
+  --hub-tl-lts: #0e7490;
+  --hub-tl-eol: var(--p-surface-400);
+  --hub-tl-upcoming: var(--p-surface-0);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.875rem;
+  border: 2px solid var(--p-content-border-color);
+}
+.hub-timeline-swatch {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: var(--hub-tl-swatch);
+}
+[data-status='active'] {
+  --hub-tl-swatch: var(--hub-tl-active);
+}
+[data-status='lts'] {
+  --hub-tl-swatch: var(--hub-tl-lts);
+}
+[data-status='eol'] {
+  --hub-tl-swatch: var(--hub-tl-eol);
+}
+[data-status='upcoming'] {
+  --hub-tl-swatch: var(--hub-tl-upcoming);
+}
+[data-status='upcoming'] .hub-timeline-swatch,
+.hub-timeline-major[data-status='upcoming'] .hub-timeline-marker {
+  box-shadow: inset 0 0 0 2px var(--hub-tl-active);
+}
+
+.hub-timeline-scroll {
+  overflow-x: auto;
+  padding: 1rem 1.25rem 1.25rem;
+}
+.hub-timeline-scroll:focus-visible {
+  outline: 2px solid var(--p-primary-color);
+  outline-offset: -4px;
+}
+.hub-timeline-canvas {
+  position: relative;
+  min-width: 960px;
+  padding-top: 2.5rem;
+}
+
+/* The track: a dotted pixel line, a square marker per major, labels alternating above and below. */
+.hub-timeline-track {
+  position: relative;
+  height: 7rem;
+  background: linear-gradient(90deg, var(--p-content-border-color) 50%, transparent 0) 0 50% /
+    calc(var(--hub-tl-cell) * 2) var(--hub-tl-cell) repeat-x;
+}
+.hub-timeline-major {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+}
+.hub-timeline-marker {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: calc(var(--hub-tl-cell) * 3);
+  height: calc(var(--hub-tl-cell) * 3);
+  transform: translate(-50%, -50%);
+  background: var(--hub-tl-swatch);
+  box-shadow: 3px 3px 0 color-mix(in srgb, var(--hub-tl-swatch) 35%, transparent);
+}
+.hub-timeline-major[data-status='eol'] .hub-timeline-marker {
+  width: calc(var(--hub-tl-cell) * 2);
+  height: calc(var(--hub-tl-cell) * 2);
+  box-shadow: none;
+}
+.hub-timeline-major:not([data-status='eol']) .hub-timeline-marker {
+  /* A square with notched "pixel" corners for the supported ones. */
+  @apply hub-clip-pixel-1;
+  box-shadow: none;
+}
+.hub-timeline-label {
+  position: absolute;
+  left: 0;
+  bottom: calc(50% + 1rem);
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+  line-height: 1;
+}
+.hub-timeline-major-below .hub-timeline-label {
+  bottom: auto;
+  top: calc(50% + 1rem);
+  flex-direction: column-reverse;
+}
+/* A one-pixel stem from the marker to its label. */
+.hub-timeline-label::after {
+  content: '';
+  width: 2px;
+  height: 0.5rem;
+  margin-top: 0.15rem;
+  background: var(--p-content-border-color);
+}
+.hub-timeline-major-below .hub-timeline-label::after {
+  margin: 0 0 0.15rem;
+}
+.hub-timeline-version {
+  font: 1.35rem/1 var(--font-brand);
+  color: var(--p-text-color);
+}
+.hub-timeline-major:not([data-status='eol']) .hub-timeline-version {
+  font-size: 1.6rem;
+  color: var(--p-primary-color);
+}
+a.hub-timeline-version:hover {
+  text-decoration: underline;
+}
+.hub-timeline-date {
+  font-size: 0.7rem;
+  color: var(--p-text-muted-color);
+}
+
+.hub-timeline-years {
+  position: relative;
+  height: 1.5rem;
+  margin-top: 0.25rem;
+  border-top: 2px solid var(--p-content-border-color);
+}
+.hub-timeline-years > span {
+  position: absolute;
+  top: 0;
+  padding: 0.3rem 0 0 0.3rem;
+  font: 1rem/1 var(--font-brand);
+  color: var(--p-text-muted-color);
+  border-left: 2px solid var(--p-content-border-color);
+}
+
+/* Support windows: stepped bars, active then LTS, with the row label on their left. */
+.hub-timeline-windows {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.6rem;
+}
+.hub-timeline-window {
+  position: relative;
+  height: 1.75rem;
+}
+.hub-timeline-window-label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 0.75rem;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+.hub-timeline-segment {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font: 1.05rem/1 var(--font-brand);
+  letter-spacing: 0.1em;
+  clip-path: polygon(
+    0 var(--hub-tl-cell),
+    var(--hub-tl-cell) var(--hub-tl-cell),
+    var(--hub-tl-cell) 0,
+    calc(100% - var(--hub-tl-cell)) 0,
+    calc(100% - var(--hub-tl-cell)) var(--hub-tl-cell),
+    100% var(--hub-tl-cell),
+    100% calc(100% - var(--hub-tl-cell)),
+    calc(100% - var(--hub-tl-cell)) calc(100% - var(--hub-tl-cell)),
+    calc(100% - var(--hub-tl-cell)) 100%,
+    var(--hub-tl-cell) 100%,
+    var(--hub-tl-cell) calc(100% - var(--hub-tl-cell)),
+    0 calc(100% - var(--hub-tl-cell))
+  );
+}
+.hub-timeline-segment-narrow {
+  font-size: 0;
+}
+.hub-timeline-segment[data-kind='active'] {
+  background: var(--hub-tl-active);
+  color: var(--hub-tl-active-text);
+}
+.hub-timeline-segment[data-kind='lts'] {
+  background: var(--hub-tl-lts);
+  color: var(--hub-tl-lts-text);
+}
+
+/* Today: a dashed pixel line through the whole canvas, labelled at the top. */
+.hub-timeline-today {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  z-index: 1;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    var(--p-primary-color) 0 var(--hub-tl-cell),
+    transparent var(--hub-tl-cell) calc(var(--hub-tl-cell) * 2)
+  );
+}
+.hub-timeline-today-label {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  padding: 0.1rem 0.4rem;
+  font: 1rem/1 var(--font-brand);
+  letter-spacing: 0.15em;
+  white-space: nowrap;
+  color: var(--p-primary-contrast-color);
+  background: var(--p-primary-color);
+  animation: hub-blink 1.1s steps(2, jump-none) infinite;
+}
+.hub-timeline-today-label::after {
+  content: '';
+  position: absolute;
+  right: -0.5rem;
+  top: 50%;
+  border: 0.3rem solid transparent;
+  border-left-color: var(--p-primary-color);
+  transform: translateY(-50%);
+}
+@media (prefers-reduced-motion: reduce) {
+  .hub-timeline-today-label {
+    animation: none;
+  }
+}

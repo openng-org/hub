@@ -1,0 +1,176 @@
+/* Release insights ----------------------------------------------------------------------------- */
+
+/* Section navigation: a sidebar from lg up, a scrollable row of links below. */
+.hub-release-nav {
+  display: flex;
+  gap: 0.25rem;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.hub-release-nav a {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.45rem 0.75rem;
+  border-radius: var(--p-content-border-radius);
+  font-size: 0.875rem;
+  white-space: nowrap;
+  color: var(--p-text-muted-color);
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+.hub-release-nav a:hover {
+  background: var(--p-content-hover-background);
+  color: var(--p-text-color);
+}
+.hub-release-nav a.is-active {
+  background: var(--p-highlight-background);
+  color: var(--p-highlight-color);
+  font-weight: 500;
+}
+.hub-release-nav .hub-chip-count {
+  font-family: var(--font-brand);
+  font-size: 1.05rem;
+  line-height: 1;
+}
+@media (min-width: 1024px) {
+  .hub-release-nav {
+    flex-direction: column;
+    overflow: visible;
+  }
+}
+
+/* 16:9 video frame. */
+.hub-video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--p-content-border-color);
+  border-radius: var(--p-content-border-radius);
+  overflow: hidden;
+  background: var(--p-surface-900);
+}
+.hub-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* A shell command with its copy button. */
+.hub-command {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.4rem 0.4rem 0.75rem;
+  border-radius: var(--p-content-border-radius);
+  background: var(--p-surface-100);
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 0.8125rem;
+}
+.hub-command code {
+  flex: 1;
+  min-width: 0;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.hub-code {
+  overflow-x: auto;
+  padding: 0.75rem;
+  border: 1px solid var(--p-content-border-color);
+  border-radius: var(--p-content-border-radius);
+  background: var(--p-surface-50);
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+.hub-inline-code {
+  padding: 0.05rem 0.35rem;
+  border-radius: 4px;
+  color: var(--p-text-color);
+  background: var(--p-surface-100);
+  font-size: 0.85em;
+}
+.hub-dark {
+  .hub-command,
+  .hub-inline-code {
+    background: var(--p-surface-800);
+  }
+  .hub-code {
+    background: var(--p-surface-900);
+  }
+}
+
+/* Migration guide: a 4-step pixel difficulty meter and criticality dots. */
+.hub-meter {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+}
+.hub-meter span {
+  width: 4px;
+  background: var(--p-surface-300);
+}
+.hub-meter span:nth-child(1) {
+  height: 6px;
+}
+.hub-meter span:nth-child(2) {
+  height: 8px;
+}
+.hub-meter span:nth-child(3) {
+  height: 10px;
+}
+.hub-meter span:nth-child(4) {
+  height: 12px;
+}
+.hub-meter[data-level='1'] span:nth-child(-n + 1),
+.hub-meter[data-level='2'] span:nth-child(-n + 2),
+.hub-meter[data-level='3'] span:nth-child(-n + 3),
+.hub-meter[data-level='4'] span {
+  background: var(--p-primary-color);
+}
+.hub-criticality-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--p-surface-400);
+}
+.hub-criticality-dot[data-level='critical'] {
+  background: var(--p-red-500);
+}
+.hub-criticality-dot[data-level='high'] {
+  background: var(--p-orange-500);
+}
+.hub-criticality-dot[data-level='medium'] {
+  background: var(--p-amber-400);
+}
+.hub-chips button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+/* Commit type label (feat, fix, perf…). */
+.hub-commit-type {
+  min-width: 4.5rem;
+  font-family: var(--font-brand);
+  font-size: 1.05rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--p-text-muted-color);
+}
+.hub-commit-type[data-type='feat'] {
+  color: var(--p-primary-color);
+}
+.hub-commit-type[data-type='fix'] {
+  color: var(--p-green-700);
+}
+.hub-commit-type[data-type='perf'] {
+  color: var(--p-orange-700);
+}
+.hub-dark {
+  .hub-commit-type[data-type='fix'] {
+    color: var(--p-green-400);
+  }
+  .hub-commit-type[data-type='perf'] {
+    color: var(--p-orange-400);
+  }
+}

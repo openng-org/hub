@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    groups:
+      angular:
+        patterns: ['@angular/*', 'angular-eslint', '@angular-eslint/*']
+      openng:
+        patterns: ['@openng/*']
+      tooling:
+        patterns: ['*']
+        exclude-patterns: ['@angular/*', 'angular-eslint', '@angular-eslint/*', '@openng/*']
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
